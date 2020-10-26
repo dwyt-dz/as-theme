@@ -40,6 +40,9 @@
 
 	            heading.html([first_part, ' <span class="last-word">', last_word, '</span>'].join(''));
 	        });
+	        var a = $('#product_title').html();
+			var b = $('#title_copy').html(a);
+			
 		    $(".login-btn").click(function(){
 		       $('.login-wrap').removeClass('hidden');
 		       $('.login-wrap').toggleClass("show");

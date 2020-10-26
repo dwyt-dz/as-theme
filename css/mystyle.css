@@ -430,3 +430,28 @@ display: grid;
 #product_gallery{
 	grid-row: 1 / span 5;
 }
+.single-prod-banner {
+    padding: 30px 0;
+    background: #fff;
+    text-align: center;
+}
+.single-prod-banner:before,
+.single-prod-banner:after{
+	content: '';
+	position: absolute;
+	background: #f97315;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	display: block;
+}
+.single-prod-banner:before{
+	left: 0;
+}
+.single-prod-banner:after{
+	right: 0;
+}
+#product_title{
+	font-size: 3em;
+	position: relative;
+}
