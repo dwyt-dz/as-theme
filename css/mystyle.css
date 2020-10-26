@@ -432,7 +432,7 @@ display: grid;
 }
 .single-prod-banner {
     padding: 30px 0;
-    background: #fff;
+    background: #000;
     text-align: center;
     position: relative;
 }
@@ -440,7 +440,7 @@ display: grid;
 .single-prod-banner:after{
 	content: '';
 	position: absolute;
-	background: #f97315;
+	background: #fff;
 	top: 0;
 	width: 25%;
 	height: 100%;
@@ -454,7 +454,10 @@ display: grid;
 	right: -5%;
     transform: skewX(-30deg);
 }
-#product_title{
+.single-prod-banner #product_title{
 	font-size: 3em;
 	position: relative;
+}
+.single-prod-banner #product_title h2{
+	color: #fff;
 }
