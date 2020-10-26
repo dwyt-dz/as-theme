@@ -366,7 +366,7 @@ body{
     background: #fff;
     position: relative;
 }
-.collection-banner{
+.collection-banner:after{
 	position: absolute;
     background: #f97315;
     content: '';
