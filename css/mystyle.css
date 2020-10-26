@@ -1,5 +1,9 @@
 /*Main css file*/
+/* MAIN COLORS
 
+orange = #f97315
+
+*/
 /* GLOBAL ELEMENTS */
 a{
 	text-decoration: none;
@@ -70,17 +74,17 @@ body{
     padding: 0 15px;
 }
 .header-sc .menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
-    color: #000;
-    background: #ccc;
+	color: #f97315;
 }
 .header-sc .menu ul { /* this targets all sub menus */
     display: none; /* hide all sub menus from view */
     position: absolute;
     top: 30px; /* this should be the same height as the top level menu -- height + padding + borders */
+	z-index: 1;
+    background: #000;
 }
 .header-sc .menu ul li { /* this targets all submenu items */
     float: none; /* overwriting our float up above */
-    width: 150px; /* set to the width you want your sub menus to be. This needs to match the value we set below */
 }
 .header-sc .menu ul li a { /* target all sub menu item links */
     padding: 5px 10px; /* give our sub menu links a nice button feel */
@@ -91,6 +95,8 @@ body{
 .header-sc .astv{
 	width: 150px;
 	height: 20px;
+	display: block;
+    background-size: contain;
 	background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
@@ -157,10 +163,11 @@ body{
 /* ad spots */
 .pmtnbar{
 	background: url(../images/map-bg.png);
-    background-color: #151515;
+	background-color: #151515;
     background-repeat: no-repeat;
+    background-blend-mode: color-burn;
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
     padding: 10px 0;
     margin: 50px 0;
 }
