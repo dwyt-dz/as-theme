@@ -19,7 +19,7 @@ $hidetitle  = get_field('hide_title');
 	</header>
 	<?php endif; ?>
 
-	<?php get_template_part('../templates'); ?>
+	<?php get_template_part('templates'); ?>
 </main>
 
 <?php get_footer(); ?>
