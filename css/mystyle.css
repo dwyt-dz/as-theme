@@ -362,11 +362,11 @@ body{
 
 /* collection page */
 .collection-banner{
-	padding: 30px 0;
+	padding: 50px 0;
     background: #fff;
     position: relative;
 }
-.collection-banner:after{
+.collection-banner .container:after{
 	position: absolute;
     background: #f97315;
     content: '';
@@ -379,8 +379,8 @@ body{
 .banner-wrap{
 	display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(1, 3fr);
-    max-width: 700px;
+    grid-template-rows: repeat(3, 3fr);
+    max-width: 768px;
     margin: 0 auto;
     z-index: 3;
     background: #fff;
@@ -389,4 +389,7 @@ body{
 .collections-sc {
     background: #fff;
     padding: 30px 0;
+}
+div#image-cont {
+    grid-row: 1 / span 3;
 }
