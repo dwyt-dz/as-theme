@@ -108,6 +108,9 @@ body{
 	background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
+.footer-sc {
+    padding: 30px 0;
+}
 .footer-sc a{
 	color: #fff;
 }
@@ -122,6 +125,10 @@ body{
 .footer-sc .menu {
     display: flex;
     grid-column: 1 / span 2;
+}
+.footer-sc .menu li {
+    margin-right: 15px;
+    font-size: 1.2em;
 }
 .footer-sc .socmed a {
     align-self: center;
@@ -376,6 +383,16 @@ body{
     right: 0;
     top: 0;
 }
+.collection-banner .wps-collection-title {
+    color: #f97315;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 0 15px;
+    text-shadow: 1px 2px #000;
+}
+.collection-banner .wps-collections-description {
+    padding: 0 15px;
+}
 .banner-wrap{
 	display: grid;
     grid-template-columns: 50% 50%;
@@ -385,6 +402,7 @@ body{
     z-index: 3;
     background: #fff;
     box-shadow: -3px 18px 23px rgb(0 0 0 / 52%);
+    position: relative;
 }
 .collections-sc {
     background: #fff;
