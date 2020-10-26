@@ -7,7 +7,7 @@ orange = #f97315
 /* GLOBAL ELEMENTS */
 a{
 	text-decoration: none;
-	color: #fff;
+	outline: none;
 	
 }
 ul{
@@ -212,8 +212,103 @@ body{
     grid-template-columns: 30% 70%;
     grid-gap: 20px;
     max-width: calc(100% - 20px);
-    background: aliceblue;
 }
 .shop-banner .menu-wrap {
     grid-row: 1 / span 2;
+    background: #f9f9f9;
+}
+.shop-banner .menu-wrap a.menu-btn {
+    background: #000;
+    display: block;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.shop-banner .menu-wrap a.menu-btn:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 1.5em;
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat !important;
+	background: url('../icons/menubar.png');
+}
+.shop-banner .menu a {
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #d6d6d6;
+}
+.shop-banner .menu li:last-child a {
+    border-bottom: none;
+}
+.shop-banner .search-form {
+    position: relative;
+}
+.shop-banner .search-field {
+    width: 100%;
+    font-size: 1.3em;
+    padding: 10px 0;
+    position: relative;
+}
+.shop-banner .search-submit {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: #000;
+    color: #fff;
+}
+.shop-slide{
+	background: #f9f9f9;
+	padding: 20px;
+}
+.shop-slide .prod-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    outline: none;
+}
+.shop-slide .slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: flex !important;
+}
+.shop-slide .image-wrap {
+    position: relative;
+    z-index: 2;
+}
+.shop-slide .image-wrap:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    width: 130%;
+    height: 130%;
+    top: -10%;
+    border-radius: 100%;
+    background: #e5e5e5;
+    z-index: 1;
+}
+.shop-slide .text-wrap .last-word {
+    background: #000;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+.shop-slide .text-wrap a {
+    position: relative;
+}
+.shop-slide .text-wrap a:after{
+	position: absolute;
+	content: '';
+	bottom: -10px;
+	width: 40%;
+	height: 5px;
+	background: #000;
+}
+.shop-slide .text-wrap a:hover:after{
+	width: 100%;
 }
