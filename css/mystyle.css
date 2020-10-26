@@ -434,6 +434,7 @@ display: grid;
     padding: 30px 0;
     background: #fff;
     text-align: center;
+    position: relative;
 }
 .single-prod-banner:before,
 .single-prod-banner:after{
