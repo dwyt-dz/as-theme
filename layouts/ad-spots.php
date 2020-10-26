@@ -1,4 +1,4 @@
-<section class="pmtnbar-dzy">
+<section class="pmtnbar">
 	<div class="container content-wrap">
 		<div class="pmtn-imgs">
 			<?php if( have_rows('advertisements', 'option') ): ?>

@@ -83,6 +83,10 @@ body{
 }
 
 /* ad spots */
+.pmtnbar{
+	background: url('../images/map-bg.png');
+	padding: 30px 0;
+}
 .pmtn-imgs {
     display: grid;
     grid-template-columns: 50% 50%;
