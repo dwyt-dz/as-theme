@@ -1,3 +1,4 @@
+<p style="color:#fff">test</p>
 <?php 
 // Check value exists.
 if( have_rows('section_display') ):
@@ -20,7 +21,7 @@ if( have_rows('section_display') ):
 
         elseif( get_row_layout() == 'ad_spots' ):
             get_template_part('layouts/ad', 'spots');    
-
+            echo "ads";
         endif;
 
     // End loop.
