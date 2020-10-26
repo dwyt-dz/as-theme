@@ -57,6 +57,7 @@ body{
     justify-content: space-around;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
+    align-items: center;
 }
 
 .header-sc .menu li    {
@@ -96,7 +97,8 @@ body{
 	width: 150px;
 	height: 20px;
 	display: block;
-    background-size: contain;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
 	background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
@@ -112,13 +114,16 @@ body{
     display: flex;
     grid-column: 1 / span 2;
 }
-.footer-sc .menu li {
-    margin-right: 1.5em;
-}
-.footer-sc .socmed {
+.footer-sc .socmed a {
     align-self: center;
     justify-self: flex-end;
+    margin-left: 1em;
+}
+.footer-sc .socmed {
     border-bottom: 1px solid #fff;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 .footer-sc .socmed li{
     margin-left: 1.5em;
