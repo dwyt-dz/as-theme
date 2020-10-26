@@ -411,3 +411,19 @@ body{
 div#image-cont {
     grid-row: 1 / span 3;
 }
+
+/* single product page */
+/* tweaked the template page directly since it is not working if copied (needs to have a pro license) */
+.single-prod-sc{
+	background: #fff;
+	padding: 30px 0;
+}
+.product-grid{
+	display: grid;
+	grid-template-columns: repeat(5, 5fr);
+	grid-gap: 30px;
+	max-width: calc(100% - 30px)
+}
+#product_galleryproduct_gallery{
+	grid-row: 1 / span 5;
+}
