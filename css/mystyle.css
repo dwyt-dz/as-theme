@@ -418,10 +418,12 @@ div#image-cont {
 	background: #fff;
 	padding: 30px 0;
 }
+.single-prod-sc .wps-product-individual-price{
+	color: #f97315;
+}
 .product-grid{
 display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(5, 5fr);
     grid-gap: 30px;
     max-width: calc(100% - 30px);
 }
