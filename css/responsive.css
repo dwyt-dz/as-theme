@@ -1,0 +1,104 @@
+@media only screen and (min-width: 576px) {
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 540px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 750px;
+	}
+}
+@media only screen and (min-width: 992px) { /* desktop 1080px - 993px */
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 980px;
+	}
+}
+@media only screen and (min-width: 1081px;) { /* large desktop 1440px - 1280px */
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 1000px;
+	}
+}
+@media only screen and (min-width: 1200px) { /* large desktop 1440px - 1280px */
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 1140px;
+	}
+}
+@media only screen and (min-width: 1441px) { /* large desktop 1440px - 1280px */
+	.single-wps_products .wps-product-single,
+	.wps-collection-single.row{
+		max-width: 1336px;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	.cardslides .card-cat{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.shop-banner .grid-wrap{
+		grid-template-columns: 50% 50%;
+	}
+	.shop-banner .grid-wrap .menu-wrap{
+		grid-row: 1 / span 1;
+	}
+	.shop-banner .grid-wrap .shop-slide{
+		grid-column: 1 / span 2;
+	}
+	.shop .menu{
+		display: none;
+	}
+	.shop .menu.show{
+		display: flex;
+		position: absolute;
+		left: 0
+		top: 0;
+		z-index: 10;
+		background: #000;
+		width: 100%;
+		height: 100%;
+		align-self: center;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+	.banner-shop{
+		padding: 20px 0;
+	}
+	.banner-wrap {
+	    grid-template-rows: 2fr;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+}
+@media only screen and (max-width: 600px) {
+	.cardslider{
+		padding: 0;
+	}
+	.cardslider .slick-slide {
+	    transform: scale(0.85);
+	    transition: ease .3s;
+	        margin: 0;
+	}
+	.cardslider .slick-current{
+		transform: scale(1);
+		transition: ease .3s;
+		    margin: 0;
+	}
+}
+@media only screen and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 480px) {
+
+}
