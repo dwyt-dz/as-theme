@@ -102,22 +102,7 @@ $Products->products(
 
    <?= do_action('wps_breadcrumbs') ?>
 
-   <div class="wps-product-single">
-
-      <div class="wps-product-single-gallery">
-         <div id="product_gallery"></div>
-      </div>
-<h2>test</h2>
-      <div class="wps-product-single-content">
-         
-         <div id="product_title"></div>
-         <div id="product_pricing"></div>
-         <div id="product_description"></div>
-         <div id="product_buy_button"></div>
-
-      </div>
-
-   </div>
+<h1>hello boy</h1>
 
 </section>
 
