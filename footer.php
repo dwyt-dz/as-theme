@@ -1,7 +1,7 @@
 
 	<footer>
 		<section class="footer-sc">
-			<div class="container-dzy content-wrap">
+			<div class="container content-wrap">
 				<div class="logo-wrap">
 					<?php 
 					$image = get_field('footer_logo', 'option');

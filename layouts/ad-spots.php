@@ -1,5 +1,5 @@
 <section class="pmtnbar-dzy">
-	<div class="container-dzy content-wrap">
+	<div class="container content-wrap">
 		<div class="pmtn-imgs">
 			<?php if( have_rows('advertisements', 'option') ): ?>
 			    <?php while( have_rows('advertisements', 'option') ): the_row(); 
