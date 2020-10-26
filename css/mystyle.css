@@ -10,6 +10,9 @@ a{
 	outline: none;
 	
 }
+button, select {
+    cursor: pointer;
+}
 ul{
 	list-style-type: none;
 	padding: 0;
@@ -134,6 +137,24 @@ body{
 .footer-sc .socmed li{
     margin-left: 1.5em;
 }
+/* others / sitewide */
+.reg-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+    position: relative;
+}
+.reg-title:after{
+	position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 30%;
+    height: 3px;
+    background: #000;
+}
 /* Front Page Banner */
 .annce-slide{
 	margin-bottom: 50px;
@@ -213,6 +234,9 @@ body{
     grid-gap: 20px;
     max-width: calc(100% - 20px);
 }
+.shop-banner .shop-title {
+    margin-top: 0;
+}
 .shop-banner .menu-wrap {
     grid-row: 1 / span 2;
     background: #f9f9f9;
@@ -225,6 +249,7 @@ body{
     padding: 10px;
     text-align: center;
     position: relative;
+    border-radius: 7px 7px 0 0;
 }
 .shop-banner .menu-wrap a.menu-btn:before{
 	content: '';
@@ -234,7 +259,7 @@ body{
 	display: block;
 	background-size: contain;
 	background-repeat: no-repeat !important;
-	background: url('../icons/menubar.png');
+	background: url('../images/menubar.png');
 }
 .shop-banner .menu a {
     display: block;
@@ -271,6 +296,7 @@ body{
     flex-flow: row wrap;
     justify-content: space-around;
     outline: none;
+    align-items: center;
 }
 .shop-slide .slick-dots {
     position: absolute;
@@ -279,6 +305,9 @@ body{
 }
 .shop-slide .image-wrap {
     position: relative;
+}
+.shop-slide .image-wrap img{
+	position: relative;
     z-index: 2;
 }
 .shop-slide .image-wrap:after {
@@ -300,15 +329,25 @@ body{
 }
 .shop-slide .text-wrap a {
     position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .shop-slide .text-wrap a:after{
-	position: absolute;
-	content: '';
-	bottom: -10px;
-	width: 40%;
-	height: 5px;
-	background: #000;
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 30%;
+    height: 3px;
+    background: #000;
+    text-transform: uppercase;
 }
 .shop-slide .text-wrap a:hover:after{
 	width: 100%;
+}
+.products-sc {
+    background: #fff;
+    padding: 30px 0;
 }
