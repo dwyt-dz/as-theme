@@ -151,7 +151,7 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 30%;
+    width: 50px;
     height: 3px;
     background: #000;
 }
@@ -348,6 +348,45 @@ body{
 	width: 100%;
 }
 .products-sc {
+    background: #fff;
+    padding: 30px 0;
+}
+.products-sc .wps-component-products-description {
+    display: none;
+}
+
+/* wps overrides */
+.wps-product-individual-price{
+	color: #f97315;
+}
+
+/* collection page */
+.collection-banner{
+	padding: 30px 0;
+    background: #fff;
+    position: relative;
+}
+.collection-banner{
+	position: absolute;
+    background: #f97315;
+    content: '';
+    width: 40%;
+    height: 100%;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+.banner-wrap{
+	display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(1, 3fr);
+    max-width: 700px;
+    margin: 0 auto;
+    z-index: 3;
+    background: #fff;
+    box-shadow: -3px 18px 23px rgb(0 0 0 / 52%);
+}
+.collections-sc {
     background: #fff;
     padding: 30px 0;
 }

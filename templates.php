@@ -48,7 +48,7 @@ if( have_rows('shop_display') ):
             get_template_part('layouts/shop', 'disproducts');
 
 		elseif( get_row_layout() == 'page_banner' ):
-            get_template_part('layouts/shop', 'pagebanner');
+            get_template_part('layouts/shop', 'collectionbanner');
 
         elseif( get_row_layout() == 'ad_spots' ):
             get_template_part('layouts/ad', 'spots');    

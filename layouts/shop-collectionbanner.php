@@ -4,7 +4,7 @@ $hidesc		= get_sub_field('hide_section');
 ?>
 
 
-<section class="shop banner-shop">
+<section class="shop collection-banner">
 	<div class="container">
 		<?php $title = get_the_title(); ?>
 		<div class="banner-wrap">
