@@ -43,3 +43,13 @@ body{
 /* Header Elements */
 
 /*Footer Elements */
+
+/* Front Page Banner */
+.slick-dots{
+	position: absolute;
+	top:0;
+	right: 0;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
