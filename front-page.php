@@ -34,7 +34,7 @@
 		</div>
 	</section>
 	
-	<?php get_template_part('snippet', 'templates'); ?>
+	<?php get_template_part('snippet-templates'); ?>
 
 	</main>
 <?php get_footer(); ?>
