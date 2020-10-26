@@ -47,6 +47,9 @@ body{
 	.container{max-width: 1336px;}
 }
 /* Header Elements */
+.header-sc a{
+	color: #fff;
+}
 .header-sc .menu {
     margin: 0;
     padding: 5px 0;
@@ -95,13 +98,16 @@ body{
 }
 .header-sc .astv{
 	width: 150px;
-	height: 20px;
-	display: block;
+    height: 35px;
+    display: block;
     background-size: 100% !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 	background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
+.footer-sc a{
+	color: #fff;
+}
 .footer-sc .content-wrap {
 	color: #fff;
     display: grid;
@@ -129,6 +135,9 @@ body{
     margin-left: 1.5em;
 }
 /* Front Page Banner */
+.annce-slide{
+	margin-bottom: 50px;
+}
 .annce-slide .slick-dots {
     position: absolute;
     top: 0;
@@ -174,7 +183,6 @@ body{
     background-position: center;
     background-size: 100%;
     padding: 10px 0;
-    margin: 50px 0;
 }
 .pmtn-imgs {
     display: grid;
@@ -189,4 +197,23 @@ body{
 }
 .pmtn-imgs .pmtn-link:first-child {
     grid-column: 1 / span 2;
+}
+
+/* shop page */
+.shop-banner{
+	background: #fff;
+	padding: 30px 0;
+}
+.shop-banner a{
+	color: #000;
+}
+.shop-banner .grid-wrap {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 20px;
+    max-width: calc(100% - 20px);
+    background: aliceblue;
+}
+.shop-banner .menu-wrap {
+    grid-row: 1 / span 2;
 }
