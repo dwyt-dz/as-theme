@@ -198,7 +198,7 @@
 		});
 		fitty('.carddis-sc .card-title', {
 		  minSize: 12,
-		  maxSize: 40
+		  maxSize: 25
 		});
 		
 		

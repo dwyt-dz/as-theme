@@ -502,6 +502,7 @@ display: grid;
 /* card displays */
 .carddis-sc {
     padding: 30px 0;
+    text-align: center;
 }
 
 .carddis-sc:nth-child(2n+1) {
@@ -560,10 +561,11 @@ display: grid;
 .cardslider .card-cat p {
     background: #662483;
     color: #f9675c;
-    padding: 10px;
+    padding: 10px 0;
     margin: 0;
     text-align: center;
     font-family: changeling; 
+    width: 100%;
 }
 .cardslider .card-cat a{
 	color: #f9675c;
