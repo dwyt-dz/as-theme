@@ -45,14 +45,14 @@ $hidesc		= get_sub_field('hide_section');
 						    	if ( has_post_thumbnail() ) :
 								    the_post_thumbnail();
 								else :
-									echo wp_get_attachment_image( $defthumb, 'thumb' );
+									echo wp_get_attachment_image( $defthumb, 'medium' );
 								endif; ?>
 						    </div>
 						    <div class="card-cat">
 					    		<?php 
 					    			if($showlogo == 'NO') :
 							    		if( !empty( $logo ) ): 
-											$size = 'thumb';
+											$size = 'medium';
 											echo wp_get_attachment_image( $logo, $size ); 
 										endif; 
 									endif;

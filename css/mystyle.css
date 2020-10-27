@@ -60,6 +60,7 @@ body{
 	width: 100%;
 	z-index: 5;
 	background: #000;
+	transition: ease-out .3s;
 }
 .header-sc .menu {
     margin: 0;
@@ -467,3 +468,5 @@ display: grid;
 .single-prod-banner #product_title h2{
 	color: #fff;
 }
+
+/* card displays */
