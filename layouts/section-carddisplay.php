@@ -62,7 +62,7 @@ $hidesc		= get_sub_field('hide_section');
 								?>
 								<p>
 									<?php if(get_field('magazine_name')) : ?>
-										<span><?php the_field('magazine_name'); ?></span>
+										<?php the_field('magazine_name'); ?>
 									<?php else :
 											the_category(', '); 
 									endif; ?>
