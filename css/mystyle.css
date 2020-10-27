@@ -7,8 +7,7 @@ orange = #f97315
 /* GLOBAL ELEMENTS */
 @font-face {
     font-family: changeling;  
-    src: url('../fonts/changeling/ChangelingNeoW01-Reg.eot');  
-    src: url('../fonts/changeling/ChangelingNeoW01-Reg.eot');
+    src: url('../fonts/changeling/ChangelingNeoW01-Reg.ttf');  
     font-weight: normal;  
 }
 a{
@@ -508,12 +507,18 @@ display: grid;
 .carddis-sc:nth-child(2n+1) {
     background: #191919c4;
 }
+.carddis-sc .card-logo {
+    text-align: center;
+}
 .carddis-sc .card-title {
     background: #662483;
     font-family: changeling;
     color: #f97310;
     font-size: 2em;
     margin: 0;
+    text-align: center;
+    min-width: 300px;
+    display: inline-block;
 }
 .cardslider{
 	margin: 50px 0;
@@ -579,12 +584,26 @@ display: grid;
     background: #000;
     border: none;
     color: #f97315;
+    border: 1px solid;
+    color: #f97315;
+}
+.cardslider .slick-arrow:hover{
+	outline: none;
+	background: #f97315;
+	transition: ease .3s;
+	color: #000;
 }
 .cardslider .slick-prev{
 	left: 0;
 }
+.cardslider .slick-prev i{
+	margin-left: -2px;
+}
 .cardslider .slick-next{
 	right: 0;
+}
+.cardslider .slick-next i{
+	margin-left: 2px;
 }
 .cardslides .btn-abs{
 	height: 50%;
