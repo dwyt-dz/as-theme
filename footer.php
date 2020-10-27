@@ -188,7 +188,7 @@
 			    }
 			}); 
 		});
-		fitty('.card-cat span', {
+		fitty('.card-cat p', {
 		  minSize: 6,
 		  maxSize: 16
 		});
@@ -196,6 +196,11 @@
 		  minSize: 12,
 		  maxSize: 40
 		});
+		fitty('.carddis-sc .card-title', {
+		  minSize: 12,
+		  maxSize: 40
+		});
+		
 		
 		
 	</script>
