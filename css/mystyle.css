@@ -519,12 +519,10 @@ display: grid;
     margin: 0;
     text-align: center;
     display: inline-block;
-    width: 300px;
+    min-width: 300px;
+    font-size: calc(12px + .5vw);
 }
-.carddis-sc .title-wrap{
-	width: 300px;
-	margin: 0 auto;
-}
+
 .cardslider{
 	margin: 50px 0;
 	padding: 0 50px;
@@ -553,6 +551,7 @@ display: grid;
     top: -80px;
     left: 0;
     padding: 10px;
+    width: 100%;
 }
 .cardslider .img-wrap img {
     width: 100%;
@@ -570,7 +569,6 @@ display: grid;
     text-align: center;
     font-family: changeling; 
     width: 100%;
-    max-width: 207px;
 }
 .cardslider .card-cat a{
 	color: #f9675c;

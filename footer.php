@@ -196,10 +196,6 @@
 		  minSize: 12,
 		  maxSize: 40
 		});
-		fitty('.carddis-sc .card-title', {
-		  minSize: 12,
-		  maxSize: 25
-		});
 		
 		
 		
