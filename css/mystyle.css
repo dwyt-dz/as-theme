@@ -53,7 +53,7 @@ body{
 .header-sc a{
 	color: #fff;
 }
-.header-sc .scroll{
+.header-sc.scroll{
 	position: fixed;
 	top: 0;
 	left: 0;
