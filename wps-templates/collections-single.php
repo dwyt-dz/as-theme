@@ -62,7 +62,7 @@ $Collections->collections(
          <div id="collection_description"></div>
          <div id="collection_products"></div>
       </div>
-
+<h2>testing</h2>
    </div>
 </section>
 
