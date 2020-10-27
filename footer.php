@@ -182,9 +182,9 @@
 
 			     //>=, not <=
 			    if (scroll >= 500) {
-		        $(".main-nav-sc").addClass("scroll");
+		        $(".header-sc").addClass("scroll");
 			    } else {
-			        $(".main-nav-sc").removeClass("scroll");
+			        $(".header-sc").removeClass("scroll");
 			    }
 			}); 
 		});
