@@ -53,6 +53,14 @@ body{
 .header-sc a{
 	color: #fff;
 }
+.header-sc .scroll{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	background: #000;
+}
 .header-sc .menu {
     margin: 0;
     padding: 5px 0;
@@ -65,7 +73,6 @@ body{
     border-bottom: 1px solid #fff;
     align-items: center;
 }
-
 .header-sc .menu li    {
     display: block;
     float: left;
