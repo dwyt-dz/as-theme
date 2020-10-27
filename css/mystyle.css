@@ -112,7 +112,7 @@ body{
 .header-sc .menu li:hover > ul {
     display: block; /* show sub menus when hovering over a parent */
 }
-.header-sc .astv{
+.astv{
 	width: 150px;
     height: 35px;
     display: block;
