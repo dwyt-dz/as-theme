@@ -518,6 +518,22 @@ display: grid;
     position: relative;
     text-align: center;
     margin-top: 80px;
+    padding-top: 120px;
+}
+
+.cardslider .card-wrap .img-wrap {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    padding: 10px;
+}
+.cardslider .img-wrap img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgb(250 250 250 / 22%)));
+    border-radius: 10px;
 }
 .cardslider .card-cat p {
     background: #662483;
@@ -532,20 +548,6 @@ display: grid;
 .cardslider .card-cat img {
     width: 100%;
     object-fit: contain;
-}
-.cardslider .card-wrap .img-wrap {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    padding: 10px;
-}
-.cardslider .img-wrap img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgb(250 250 250 / 22%)));
-    border-radius: 10px;
 }
 .cardslides .btn-abs{
 	height: 50%;
