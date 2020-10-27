@@ -470,3 +470,25 @@ display: grid;
 }
 
 /* card displays */
+.carddis-sc {
+    padding: 30px 0;
+}
+.carddis-sc:nth-child(2n+1) {
+    background: #191919c4;
+}
+.cardslider .cardslides {
+    outline: none;
+}
+.cardslider .card-wrap {
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    outline: none;
+    padding: 10px;
+}
+.cardslider .img-wrap img{
+	width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
