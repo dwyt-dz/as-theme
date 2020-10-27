@@ -519,6 +519,7 @@ display: grid;
     margin: 0;
     text-align: center;
     display: inline-block;
+    width: 300px;
 }
 .carddis-sc .title-wrap{
 	width: 300px;
