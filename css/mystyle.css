@@ -5,6 +5,12 @@ orange = #f97315
 
 */
 /* GLOBAL ELEMENTS */
+@font-face {
+    font-family: changeling;  
+    src: url('../fonts/changeling/ChangelingNeoW01-Reg.eot');  
+    src: url('../fonts/changeling/ChangelingNeoW01-Reg.eot');
+    font-weight: normal;  
+}
 a{
 	text-decoration: none;
 	outline: none;
