@@ -26,7 +26,9 @@ $hidesc		= get_sub_field('hide_section');
 						<?php echo wp_get_attachment_image( $sclogo, $size ); ?>
 					</div>
 					<?php endif; ?>
-					<h2 class="card-title"><?php echo $title; ?></h2>
+					<div class="title-wrap">
+						<h2 class="card-title"><?php echo $title; ?></h2>
+					</div>
 				<?php endif; ?>
 			<?php endif; ?>
 			<?php
