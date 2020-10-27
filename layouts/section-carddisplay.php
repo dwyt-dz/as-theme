@@ -43,7 +43,7 @@ $hidesc		= get_sub_field('hide_section');
 				        	<div class="img-wrap">
 						    	<?php 
 						    	if ( has_post_thumbnail() ) :
-								    the_post_thumbnail();
+								    the_post_thumbnail('medium');
 								else :
 									echo wp_get_attachment_image( $defthumb, 'medium' );
 								endif; ?>
