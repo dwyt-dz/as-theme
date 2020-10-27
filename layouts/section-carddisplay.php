@@ -52,7 +52,7 @@ $hidesc		= get_sub_field('hide_section');
 					    		<?php 
 					    			if($showlogo == 'NO') :
 							    		if( !empty( $logo ) ): 
-											$size = 'medium';
+											$size = 'thumbnail';
 											echo wp_get_attachment_image( $logo, $size ); 
 										endif; 
 									endif;
