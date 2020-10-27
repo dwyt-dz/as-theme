@@ -567,19 +567,6 @@ display: grid;
     width: 100%;
     object-fit: contain;
 }
-.cardslides .btn-abs{
-	height: 50%;
-	max-height: 180px;
-}
-.cardslides .socmed {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: space-around;
-}
-.cardslides .socmed a {
-    font-size: 2em;
-}
 .cardslider .slick-arrow {
 	position: absolute;
     align-self: center;
@@ -598,4 +585,17 @@ display: grid;
 }
 .cardslider .slick-next{
 	right: 0;
+}
+.cardslides .btn-abs{
+	height: 50%;
+	max-height: 180px;
+}
+.cardslides .socmed {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.cardslides .socmed a {
+    font-size: 2em;
 }
