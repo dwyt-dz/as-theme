@@ -40,8 +40,17 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.annce-slide .slide-content .img-wrap img {
+	    height: 500px;
+	}
+	.pmtn-imgs img {
+	    height: 100px;
+	}
 }
 @media only screen and (max-width: 992px) {
+	.annce-slide .slide-content .img-wrap img {
+	    height: 400px;
+	}
 	.shop-banner .grid-wrap{
 		grid-template-columns: 50% 50%;
 	}
@@ -68,6 +77,9 @@
 
 }
 @media only screen and (max-width: 768px) {
+	.annce-slide .slide-content .img-wrap img {
+	    height: 350px;
+	}
 	.banner-shop{
 		padding: 20px 0;
 	}
@@ -82,6 +94,9 @@
 
 }
 @media only screen and (max-width: 600px) {
+	.annce-slide .slide-content .img-wrap img {
+	    height: 300px;
+	}
 	.cardslider{
 		padding: 0;
 	}
@@ -94,6 +109,12 @@
 		transform: scale(1);
 		transition: ease .3s;
 		    margin: 0;
+	}
+	.pmtn-imgs img {
+	    height: 90px;
+	}
+	.pmtn-imgs .pmtn-link {
+	    grid-column: span 2;
 	}
 }
 @media only screen and (max-width: 550px) {
