@@ -124,7 +124,8 @@ body{
 .footer-sc {
     padding: 30px 0;
 }
-.footer-sc a{
+.footer-sc a,
+.footer-sc i{
 	color: #fff;
 }
 .footer-sc .content-wrap {
