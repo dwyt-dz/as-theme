@@ -114,10 +114,11 @@ body{
 }
 .astv{
 	width: 150px;
-    height: 35px;
+    height: 20px;
     display: block;
-    background-size: 100% !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
+    background-position: center !important;
 	background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
