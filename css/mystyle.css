@@ -231,18 +231,25 @@ body{
 }
 .annce-slide button:after{
 	content: '';
-	position: absolute;
-	left: -10px;
-	top: -10px;
-	width: 25px;
-	height: 25px;
-	display: block;
-	border-radius: #fff;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.annce-slide .slick-dots li:hover button{
+	background: #f97315;
+}
+.annce-slide .slick-dots li:hover button:after{
+	border-color: #f97315;
 }
 .annce-slide .slick-dots {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
     display: flex !important;
     flex-flow: column wrap;
     padding: 0;
