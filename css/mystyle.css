@@ -128,7 +128,8 @@ body{
 .footer-sc i{
 	color: #fff;
 }
-.footer-sc a:hover{
+.footer-sc a:hover,
+.footer-sc a:hover i{
 	color: #f97315;
 }
 .footer-sc .content-wrap {
@@ -197,7 +198,7 @@ body{
     color: #bb0000
 }
 .fa-facebook, .fa-facebook-square,
-.footer-sc .socmed a:hover .fa-facebook,
+.footer-sc .socmed a:hover .fa-facebook-f,
 .footer-sc .socmed a:hover .fa-facebook-square{
     color: #3b5998
 }
