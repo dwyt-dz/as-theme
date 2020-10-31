@@ -51,6 +51,16 @@
 	.annce-slide .slide-content .img-wrap img {
 	    height: 400px;
 	}
+	.footer-sc .menu {
+	    justify-content: space-around;
+	}
+	.footer-sc .menu li{
+		margin-right: 0;
+	}
+	.footer-sc .copyright {
+	    text-align: center;
+	    grid-column: span 2;
+	}
 	.shop-banner .grid-wrap{
 		grid-template-columns: 50% 50%;
 	}
@@ -95,7 +105,10 @@
 }
 
 @media only screen and (max-width: 767px) {
-
+	.footer-sc .menu {
+	    flex-flow: column wrap;
+	    text-align: center;
+	}
 
 }
 @media only screen and (max-width: 600px) {

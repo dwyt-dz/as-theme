@@ -134,6 +134,7 @@ body{
 }
 .footer-sc .logo-wrap{
 	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
 }
 .footer-sc .menu {
     display: flex;
