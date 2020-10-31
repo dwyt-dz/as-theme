@@ -25,7 +25,7 @@
 					        	?>
 						        	<h2>Action Space</h2>
 						        <?php endif; ?>
-					        	<p><?php the_sub_field('title'); ?></p>
+					        	<p><?php echo $title; ?></p>
 					        </div>
 					    	<?php endif; ?>
 					    </div>
