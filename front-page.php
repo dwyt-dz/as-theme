@@ -15,7 +15,7 @@
 					            <?php echo wp_get_attachment_image( $image, $size ); ?>
 					            
 					        </div>
-					        <?php if(the_sub_field('title')) : ?>
+					        <?php $title = get_sub_field('title'); if($title) : ?>
 					        <div class="text-wrap">
 					        	<?php 
 					        	$logo = get_field('website_logo', 'option'); 
