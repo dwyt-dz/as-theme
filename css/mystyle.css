@@ -241,6 +241,8 @@ body{
 }
 
 /* ad spots */
+
+/*
 .pmtnbar{
 	background: url(../images/map-bg.png);
 	background-color: #151515;
@@ -250,11 +252,14 @@ body{
     background-size: 100%;
     padding: 10px 0;
 }
+*/
 .pmtn-imgs {
     display: grid;
     grid-template-columns: 50% 50%;
+    /*
     grid-gap: 10px;
     max-width: calc(100% - 10px);
+    */
     padding: 30px 0;
 }
 .pmtn-imgs img {
@@ -264,7 +269,10 @@ body{
 .pmtn-imgs .pmtn-link:first-child {
     grid-column: 1 / span 2;
 }
-
+.pmtn-link {
+    border: 8px solid gray;
+    line-height: 0;
+}
 /* shop page */
 .shop-banner{
 	background: #fff;
