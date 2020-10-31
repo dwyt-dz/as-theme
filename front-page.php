@@ -16,7 +16,7 @@
 					            
 					        </div>
 					        <?php $hidesc = get_sub_field('hide_section'); 
-					        if($hidesc) : ?>
+					        if($hidesc == 'NO') : ?>
 					        <div class="text-wrap">
 					        	<?php 
 					        	$logo = get_field('website_logo', 'option'); 
