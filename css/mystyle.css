@@ -11,21 +11,21 @@ orange = #f97315
     font-weight: normal;  
 }
 a{
-	text-decoration: none;
-	outline: none;
-	
+    text-decoration: none;
+    outline: none;
+    
 }
 button, select {
     cursor: pointer;
 }
 ul{
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 body{
-	background: #000;
-	font-family: 'Cabin';
-	font-size: 16px;
+    background: #000;
+    font-family: 'Cabin';
+    font-size: 16px;
 }
 .container{max-width: 1336px; margin: 0 auto; padding: 0 15px;}
 .w10{width: 10%;}
@@ -40,32 +40,32 @@ body{
 .w100{width: 100%;}
 /* bs override */
 @media only screen and (min-width: 768px) {
-	.container{max-width: 750px;}
+    .container{max-width: 750px;}
 }
 @media only screen and (min-width: 992px) { /* desktop 1080px - 993px */
-	.container{max-width:980px;}
+    .container{max-width:980px;}
 }
 @media only screen and (min-width: 1081px;) { /* large desktop 1440px - 1280px */
-	.container{max-width: 1000px;}
+    .container{max-width: 1000px;}
 }
 @media only screen and (min-width: 1200px) { /* large desktop 1440px - 1280px */
-	.container{max-width: 1140px;}
+    .container{max-width: 1140px;}
 }
 @media only screen and (min-width: 1441px) { /* large desktop 1440px - 1280px */
-	.container{max-width: 1336px;}
+    .container{max-width: 1336px;}
 }
 /* Header Elements */
 .header-sc a{
-	color: #fff;
+    color: #fff;
 }
 .header-sc.scroll{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 5;
-	background: #000;
-	transition: ease-out .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: #000;
+    transition: ease-out .3s;
 }
 .header-sc .menu {
     margin: 0;
@@ -92,15 +92,29 @@ body{
     height: 30px;
     line-height: 30px;
     padding: 0 15px;
+    position: relative;
 }
 .header-sc .menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
-	color: #f97315;
+    color: #f97315;
+}
+.header-sc .menu .current-menu-item a:after, #main-nav a:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0;
+    height: 10px;
+    background: #f97315;
+    transition: ease .3s;
+}
+.header-sc .menu .current-menu-item a:after, #main-nav a:after:hover{
+    width: 100%;
+    transition: ease .3s;
 }
 .header-sc .menu ul { /* this targets all sub menus */
     display: none; /* hide all sub menus from view */
     position: absolute;
     top: 30px; /* this should be the same height as the top level menu -- height + padding + borders */
-	z-index: 1;
+    z-index: 1;
     background: #000;
 }
 .header-sc .menu ul li { /* this targets all submenu items */
@@ -113,13 +127,13 @@ body{
     display: block; /* show sub menus when hovering over a parent */
 }
 .astv{
-	width: 150px;
+    width: 150px;
     height: 20px;
     display: block;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
-	background: url('../icons/astv-logo.png');
+    background: url('../icons/astv-logo.png');
 }
 /*Footer Elements */
 .footer-sc {
@@ -127,20 +141,20 @@ body{
 }
 .footer-sc a,
 .footer-sc i{
-	color: #fff;
+    color: #fff;
 }
 .footer-sc a:hover,
 .footer-sc a:hover i{
-	color: #f97315;
+    color: #f97315;
 }
 .footer-sc .content-wrap {
-	color: #fff;
+    color: #fff;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .footer-sc .logo-wrap{
-	border-bottom: 1px solid #fff;
-	padding-bottom: 1em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1em;
 }
 .footer-sc .menu {
     display: flex;
@@ -156,7 +170,7 @@ body{
     margin-left: 1em;
 }
 .footer-sc .socmed {
-	border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -182,7 +196,7 @@ body{
     position: relative;
 }
 .reg-title:after{
-	position: absolute;
+    position: absolute;
     content: '';
     bottom: -10px;
     left: 0;
@@ -217,7 +231,7 @@ body{
 }
 /* Front Page Banner */
 .annce-slide{
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 .annce-slide button {
     background: #fff;
@@ -228,9 +242,10 @@ body{
     width: 15px;
     display: block;
     position: relative;
+    outline: none;
 }
 .annce-slide button:after{
-	content: '';
+    content: '';
     position: absolute;
     left: -10px;
     top: -10px;
@@ -241,10 +256,10 @@ body{
     border: 2px solid #fff;
 }
 .annce-slide .slick-dots li:hover button{
-	background: #f97315;
+    background: #f97315;
 }
 .annce-slide .slick-dots li:hover button:after{
-	border-color: #f97315;
+    border-color: #f97315;
 }
 .annce-slide .slick-dots {
     position: absolute;
@@ -273,11 +288,15 @@ body{
 }
 .annce-slide .slide-content .text-wrap img {
     margin: 0 auto;
+    height: 100px;
+    max-height: 10vw;
+    max-width: 600px;
+    width: 100%;
 }
 .annce-slide .slide-content .text-wrap p{
     text-transform: uppercase;
     color: #f97315;
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding: 0;
     margin: 0;
 }
@@ -286,8 +305,8 @@ body{
 
 /*
 .pmtnbar{
-	background: url(../images/map-bg.png);
-	background-color: #151515;
+    background: url(../images/map-bg.png);
+    background-color: #151515;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
     background-position: center;
@@ -317,11 +336,11 @@ body{
 }
 /* shop page */
 .shop-banner{
-	background: #fff;
-	padding: 30px 0;
+    background: #fff;
+    padding: 30px 0;
 }
 .shop-banner a{
-	color: #000;
+    color: #000;
 }
 .shop-banner .grid-wrap {
     display: grid;
@@ -347,14 +366,14 @@ body{
     border-radius: 7px 7px 0 0;
 }
 .shop-banner .menu-wrap a.menu-btn:before{
-	content: '';
-	position: absolute;
-	width: 20px;
-	height: 1.5em;
-	display: block;
-	background-size: contain;
-	background-repeat: no-repeat !important;
-	background: url('../images/menubar.png');
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1.5em;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background: url('../images/menubar.png');
 }
 .shop-banner .menu a {
     display: block;
@@ -383,7 +402,7 @@ body{
     color: #fff;
 }
 .shop-slide{
-	background: #f9f9f9;
+    background: #f9f9f9;
 }
 .shop-slide .prod-wrap {
     display: flex;
@@ -401,7 +420,7 @@ body{
     position: relative;
 }
 .shop-slide .image-wrap img{
-	position: relative;
+    position: relative;
     z-index: 2;
 }
 .shop-slide .image-wrap:after {
@@ -439,7 +458,7 @@ body{
     text-transform: uppercase;
 }
 .shop-slide .text-wrap a:hover:after{
-	width: 100%;
+    width: 100%;
 }
 .products-sc {
     background: #fff;
@@ -451,17 +470,17 @@ body{
 
 /* wps overrides */
 .wps-product-individual-price{
-	color: #f97315;
+    color: #f97315;
 }
 
 /* collection page */
 .collection-banner{
-	padding: 50px 0;
+    padding: 50px 0;
     background: #fff;
     position: relative;
 }
 .collection-banner .container:after{
-	position: absolute;
+    position: absolute;
     background: #f97315;
     content: '';
     width: 40%;
@@ -481,7 +500,7 @@ body{
     padding: 0 15px;
 }
 .banner-wrap{
-	display: grid;
+    display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 3fr);
     max-width: 768px;
@@ -502,11 +521,11 @@ div#image-cont {
 /* single product page */
 /* tweaked the template page directly since it is not working if copied (needs to have a pro license) */
 .single-prod-sc{
-	background: #fff;
-	padding: 30px 0;
+    background: #fff;
+    padding: 30px 0;
 }
 .single-prod-sc .wps-product-individual-price{
-	color: #f97315;
+    color: #f97315;
 }
 .product-grid{
 display: grid;
@@ -515,7 +534,7 @@ display: grid;
     max-width: calc(100% - 30px);
 }
 #product_gallery{
-	grid-row: 1 / span 5;
+    grid-row: 1 / span 5;
 }
 .single-prod-banner {
     padding: 30px 0;
@@ -525,28 +544,28 @@ display: grid;
 }
 .single-prod-banner:before,
 .single-prod-banner:after{
-	content: '';
-	position: absolute;
-	background: #fff;
-	top: 0;
-	width: 25%;
-	height: 100%;
-	display: block;
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    display: block;
 }
 .single-prod-banner:before{
-	left: -5%;
+    left: -5%;
     transform: skewX(-30deg);
 }
 .single-prod-banner:after{
-	right: -5%;
+    right: -5%;
     transform: skewX(-30deg);
 }
 .single-prod-banner #product_title{
-	font-size: 3em;
-	position: relative;
+    font-size: 3em;
+    position: relative;
 }
 .single-prod-banner #product_title h2{
-	color: #fff;
+    color: #fff;
 }
 
 /* card displays */
@@ -574,15 +593,15 @@ display: grid;
 }
 
 .cardslider{
-	margin: 50px 0;
-	padding: 0 50px;
+    margin: 50px 0;
+    padding: 0 50px;
 }
 .cardslider .cardslides {
     outline: none;
     padding: 0 9px;
 }
 .cardslider .slick-list{
-	margin: 0 -9px;
+    margin: 0 -9px;
 }
 .cardslider .card-wrap {
     background: #fff;
@@ -621,14 +640,14 @@ display: grid;
     width: 100%;
 }
 .cardslider .card-cat a{
-	color: #f9675c;
+    color: #f9675c;
 }
 .cardslider .card-cat img {
     width: 100%;
     object-fit: contain;
 }
 .cardslider .slick-arrow {
-	position: absolute;
+    position: absolute;
     top: 50%;
     z-index: 2;
     font-size: 25px;
@@ -643,26 +662,26 @@ display: grid;
     color: #f97315;
 }
 .cardslider .slick-arrow:hover{
-	outline: none;
-	background: #f97315;
-	transition: ease .3s;
-	color: #000;
+    outline: none;
+    background: #f97315;
+    transition: ease .3s;
+    color: #000;
 }
 .cardslider .slick-prev{
-	left: 0;
+    left: 0;
 }
 .cardslider .slick-prev i{
-	margin-left: -2px;
+    margin-left: -2px;
 }
 .cardslider .slick-next{
-	right: 0;
+    right: 0;
 }
 .cardslider .slick-next i{
-	margin-left: 2px;
+    margin-left: 2px;
 }
 .cardslides .btn-abs{
-	height: 50%;
-	max-height: 180px;
+    height: 50%;
+    max-height: 180px;
 }
 .cardslides .socmed {
     position: relative;
