@@ -80,7 +80,7 @@
 			$('.menu-item-has-children').hover(function(){
 			    $('.sub-menu', this).toggleClass('show');
 			}, function(){
-			    $('.sub-menu', this).toggleClass('show');
+			    $('.sub-menu', this).delay(2000).toggleClass('show');
 			});
 			$(".menu-item-has-children a").click(function(){
 		       $('.menu-item-has-children .sub-menu', this).removeClass('hidden');
