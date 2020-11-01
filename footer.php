@@ -82,6 +82,10 @@
 			}, function(){
 			    $('.sub-menu', this).delay(2000).fadeOut();
 			});
+			$(".menu-item-has-children a").click(function(){
+		       $('.menu-item-has-children .sub-menu', this).removeClass('hidden');
+		       $('.menu-item-has-children .sub-menu', this').toggleClass("show");
+		    });
 			$('.annce-slide').slick({
 			  dots: true,
 			  infinite: true,
