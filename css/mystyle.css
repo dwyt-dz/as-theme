@@ -81,8 +81,6 @@ body{
 }
 .header-sc .menu li    {
     display: block;
-    float: left;
-    line-height: 30px; /* this should be the same as your #main-nav height */
     margin: 0; padding: 0; /* only needed if you don't have a reset */
     position: relative; /* this is needed in order to position sub menus */
 }
@@ -120,6 +118,10 @@ body{
     z-index: 1;
     background: #313131;
     font-size: .7em;
+    min-width: 270px;
+}
+.header-sc .menu-item-has-children .sub-menu{
+    min-width: 300px;
 }
 .header-sc .menu-item-has-children .sub-menu li{
     padding: 10px 15px;
@@ -130,8 +132,17 @@ body{
 .header-sc .menu-item-has-children .sub-menu li:last-child a{
     border-bottom: none;
 }
-.header-sc .menu-item-has-children .sub-menu.show{
+.header-sc .astv-link.menu-item-has-children .sub-menu.show{
     display: block;
+}
+.header-sc .menu-level .menu-item-has-children .sub-menu.show{
+    display: block;
+    left: 270px;
+}
+.header-sc .menu-level .menu-item-has-children a{
+    background: #f97315;
+    text-align: center;
+    color: #313131;
 }
 .astv{
     width: 150px;

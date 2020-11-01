@@ -84,7 +84,10 @@
 			    $('.sub-menu', this).delay(2000).toggleClass('show');
 			});
 			*/
-			$(".menu-item-has-children").click(function(){
+			$(".astv-link").click(function(){
+		       $('.sub-menu', this).toggleClass("show");
+		    });
+		    $(".menu-level").click(function(){
 		       $('.sub-menu', this).toggleClass("show");
 		    });
 			$('.annce-slide').slick({
