@@ -69,7 +69,7 @@ body{
 }
 .header-sc .menu {
     margin: 0;
-    padding: 15px 0;
+    padding: 10px 0;
     margin-top: 50px;
     display: flex;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ body{
 .header-sc .menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
     color: #f97315;
 }
-.header-sc .menu .current-menu-item a:after, #main-nav a:after{
+.header-sc .menu .current-menu-item a:after, .header-sc .menu a:after{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -107,7 +107,7 @@ body{
     background: #f97315;
     transition: ease .3s;
 }
-.header-sc .menu .current-menu-item a:hover:after, #main-nav a:hover:after{
+.header-sc .menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
     width: 100%;
     transition: ease .3s;
 }
