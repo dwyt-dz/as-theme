@@ -99,7 +99,7 @@ body{
     content: '';
     position: absolute;
     bottom: -5px;
-    width: 13px;
+    width: 0;
     height: 3px;
     margin: 0 auto;
     left: 0;
@@ -107,16 +107,19 @@ body{
     background: #f97315;
     transition: ease .3s;
 }
-.header-sc .menu .current-menu-item a:after, #main-nav a:after:hover{
+.header-sc .menu .current-menu-item a:hover:after, #main-nav a:hover:after{
     width: 100%;
     transition: ease .3s;
 }
 .header-sc .menu ul { /* this targets all sub menus */
-    display: none; /* hide all sub menus from view */
+    display: none;
     position: absolute;
-    top: 30px; /* this should be the same height as the top level menu -- height + padding + borders */
+    top: 43px;
+    width: 100%;
+    left: 0;
     z-index: 1;
-    background: #000;
+    background: #313131;
+    font-size: .7em;
 }
 .header-sc .menu ul li { /* this targets all submenu items */
     float: none; /* overwriting our float up above */
