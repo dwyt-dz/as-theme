@@ -85,7 +85,7 @@
 			});
 			*/
 			$(".menu-item-has-children").click(function(){
-		       $('.menu-item-has-children .sub-menu', this).toggleClass("show");
+		       $('.sub-menu', this).toggleClass("show");
 		    });
 			$('.annce-slide').slick({
 			  dots: true,
