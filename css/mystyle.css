@@ -83,13 +83,11 @@ body{
     display: block;
     float: left;
     line-height: 30px; /* this should be the same as your #main-nav height */
-    height: 30px; /* this should be the same as your #main-nav height */
     margin: 0; padding: 0; /* only needed if you don't have a reset */
     position: relative; /* this is needed in order to position sub menus */
 }
 .header-sc .menu li a  {
     display: block;
-    height: 30px;
     line-height: 30px;
     padding: 0 15px;
     position: relative;
@@ -100,9 +98,12 @@ body{
 .header-sc .menu .current-menu-item a:after, #main-nav a:after{
     content: '';
     position: absolute;
-    bottom: -10px;
-    width: 0;
-    height: 10px;
+    bottom: -5px;
+    width: 13px;
+    height: 3px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     background: #f97315;
     transition: ease .3s;
 }
