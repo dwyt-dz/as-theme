@@ -80,7 +80,7 @@
 			$('li.menu-item-has-children a').hover(function(){
 			    $('.sub-menu', this).show();
 			}, function(){
-			    $('.sub-menu', this).delay(2000).hide();
+			    $('.sub-menu', this).delay(2000).fadeOut();
 			});
 			$('.annce-slide').slick({
 			  dots: true,
