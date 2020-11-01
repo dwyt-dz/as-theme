@@ -83,6 +83,7 @@ body{
     display: block;
     margin: 0; padding: 0; /* only needed if you don't have a reset */
     position: relative; /* this is needed in order to position sub menus */
+    padding: 5px 15px;
 }
 .header-sc .menu li a  {
     display: block;
@@ -110,19 +111,32 @@ body{
     transition: ease .3s;
 }
 .header-sc .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
-    margin-top: 30px;
     transition: all 0.5s ease-out 0s;
     position: absolute;
     top: 43px;
     width: 100%;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     background: #313131;
     font-size: .7em;
     min-width: 270px;
+    padding: 10px 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.header-sc .menu li.menu-item-has-children:hover > .sub-menu,
+.header-sc .menu li.menu-item-has-children:focus > .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.header-sc .menu li.menu-item-has-children > .sub-menu li a{
+    border-bottom: 1px solid #fff;
+}
+.header-sc .menu li.menu-item-has-children > .sub-menu li:last-child a{
+    border: none;
 }
 .header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
-    left: 270px;
+    left: 272px;
 }
 .header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
     background: #f97315;
