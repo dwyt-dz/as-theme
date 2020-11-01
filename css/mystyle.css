@@ -121,15 +121,7 @@ body{
     background: #313131;
     font-size: .7em;
 }
-.header-sc .menu ul li { /* this targets all submenu items */
-    float: none; /* overwriting our float up above */
-}
-.header-sc .menu ul li a { /* target all sub menu item links */
-    padding: 5px 10px; /* give our sub menu links a nice button feel */
-}
-.header-sc .menu li:hover > ul {
-    display: block; /* show sub menus when hovering over a parent */
-}
+
 .astv{
     width: 150px;
     height: 20px;
