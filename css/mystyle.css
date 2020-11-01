@@ -121,7 +121,15 @@ body{
     background: #313131;
     font-size: .7em;
 }
-
+.header-sc .menu-item-has-children .sub-menu li{
+    padding: 10px 15px;
+}
+.header-sc .menu-item-has-children .sub-menu li a{
+    border-bottom: 1px solid #fff;
+}
+.header-sc .menu-item-has-children .sub-menu li:last-child a{
+    border-bottom: none;
+}
 .astv{
     width: 150px;
     height: 20px;
