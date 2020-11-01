@@ -109,8 +109,9 @@ body{
     width: 100%;
     transition: ease .3s;
 }
-.header-sc .menu ul { /* this targets all sub menus */
-    display: none;
+.header-sc .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
+    margin-top: 30px;
+    transition: all 0.5s ease-out 0s;
     position: absolute;
     top: 43px;
     width: 100%;
@@ -120,26 +121,10 @@ body{
     font-size: .7em;
     min-width: 270px;
 }
-.header-sc .menu-item-has-children .sub-menu{
-    min-width: 300px;
-}
-.header-sc .menu-item-has-children .sub-menu li{
-    padding: 10px 15px;
-}
-.header-sc .menu-item-has-children .sub-menu li a{
-    border-bottom: 1px solid #fff;
-}
-.header-sc .menu-item-has-children .sub-menu li:last-child a{
-    border-bottom: none;
-}
-.header-sc .astv-link.menu-item-has-children .sub-menu.show{
-    display: block;
-}
-.header-sc .menu-level .menu-item-has-children .sub-menu.show{
-    display: block;
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
     left: 270px;
 }
-.header-sc .menu-level .menu-item-has-children a{
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
     background: #f97315;
     text-align: center;
     color: #313131;
