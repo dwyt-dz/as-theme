@@ -130,7 +130,7 @@ body{
 .header-sc .menu-item-has-children .sub-menu li:last-child a{
     border-bottom: none;
 }
-.header-sc .menu-item-has-children .sub-menu.show{
+.header-sc .menu-item-has-children:hover .sub-menu{
     display: block;
 }
 .astv{
