@@ -77,7 +77,7 @@
 				$(this).addClass('current');
 				$("#"+tab_id).addClass('current');
 			})
-			$('li.menu-item-has-children menu a').hover(function(){
+			$('li.menu-item-has-children a').hover(function(){
 			    $('.sub-menu', this).show();
 			}, function(){
 			    $('.sub-menu', this).delay(2000).hide();
