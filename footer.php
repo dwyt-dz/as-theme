@@ -77,26 +77,22 @@
 				$(this).addClass('current');
 				$("#"+tab_id).addClass('current');
 			})
-			/*
-			$('.menu-item-has-children').hover(function(){
-			    $('.sub-menu', this).toggleClass('show');
-			}, function(){
-			    $('.sub-menu', this).delay(2000).toggleClass('show');
-			});
-			*/
-			$(".astv-link").click(function(){
-		       $('.sub-menu', this).toggleClass("show");
-		    });
-		    $(".menu-level").click(function(){
-		       $('.sub-menu', this).toggleClass("show");
-		    });
 			$('.annce-slide').slick({
 			  dots: true,
 			  infinite: true,
 			  speed: 500,
 			  fade: true,
 			  arrows: false,
-			  cssEase: 'linear'
+			  cssEase: 'linear',
+			  responsive: [
+			  	{
+			      breakpoint: 992,
+			      settings: {
+			        dots: false;
+			        arrows: true
+			      }
+			    }
+			  ]
 			});
 			$('.shop-slide').slick({
 			  dots: true,

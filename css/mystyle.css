@@ -173,6 +173,10 @@ body{
     border-bottom: 1px solid #fff;
     padding-bottom: 1em;
 }
+.footer-sc .logo-wrap img {
+    width: 35px;
+    height: 35px;
+}
 .footer-sc .menu {
     display: flex;
     grid-column: 1 / span 2;
