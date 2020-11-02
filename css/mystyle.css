@@ -326,6 +326,7 @@ body{
     max-height: 10vw;
     max-width: 600px;
     width: 100%;
+    object-fit: contain;
 }
 .annce-slide .slide-content .text-wrap p{
     text-transform: uppercase;
