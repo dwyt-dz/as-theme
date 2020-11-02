@@ -453,6 +453,7 @@ body{
 .shop-slide .slick-dots button {
     border: none;
     background: none;
+    outline: none;
 }
 .shop-slide .slick-dots li{
     position: relative;
