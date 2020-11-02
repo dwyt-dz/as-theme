@@ -444,6 +444,23 @@ body{
     bottom: 0;
     display: flex !important;
 }
+.shop-slide .slick-dots button {
+    border: none;
+    background: none;
+}
+.shop-slide .slick-dots li{
+    position: relative;
+    margin: 0 10px;
+}
+.shop-slide .slick-dots li:after{
+    content: ' / ';
+    position: absolute;
+    right: 5px;
+    display: block;
+}
+.shop-slide .slick-dots li:last-child:after{
+    content:'';
+}
 .shop-slide .image-wrap {
     position: relative;
 }
