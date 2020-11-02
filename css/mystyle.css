@@ -283,6 +283,12 @@ body{
     border-radius: 100%;
     border: 2px solid #fff;
 }
+.annce-slide .slick-active button{
+    background: #f97315;
+}
+.annce-slide .slick-active button:after{
+    border-color: #f97315;
+}
 .annce-slide .slick-dots li:hover button{
     background: #f97315;
 }
@@ -455,11 +461,15 @@ body{
 .shop-slide .slick-dots li:after{
     content: ' / ';
     position: absolute;
-    right: 5px;
+    right: -10px;
+    top: 0;
     display: block;
 }
 .shop-slide .slick-dots li:last-child:after{
     content:'';
+}
+.shop-slide .slick-active button{
+    color: #f97315;
 }
 .shop-slide .image-wrap {
     position: relative;
