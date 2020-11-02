@@ -5,7 +5,7 @@
 		<div class="container content-wrap">
 			<div class="fp-slider">
 				<?php if( have_rows('image_sliders', 'option') ): ?>
-				    <div class="annce-slide">
+				    <div class="annce-slide custSlide">
 				    <?php while( have_rows('image_sliders', 'option') ): the_row(); 
 				        $image = get_sub_field('image');
 				        $size = 'large';
