@@ -152,6 +152,10 @@ body{
     background-position: center !important;
     background: url('../icons/astv-logo.png');
 }
+#wprmenu_bar .menu_title a {
+    color: #fff;
+    top: 0;
+}
 /*Footer Elements */
 .footer-sc {
     padding: 30px 0;
