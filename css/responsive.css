@@ -95,22 +95,23 @@
 	.shop-banner .grid-wrap .shop-slide{
 		grid-column: 1 / span 2;
 	}
-	.shop-banner .grid-wrap .menu.show{
-		margin: 0;
-	}
 	.shop .menu{
 		display: none;
 	}
 	.shop .menu.show{
 		display: flex;
 		position: absolute;
-		left: 0
-		top: 0;
 		z-index: 10;
 		background: #000;
 		width: 100%;
 		height: 100%;
 		align-self: center;
+		justify-content: space-around;
+		margin: 0;
+	}
+	.shop-banner .menu a{
+		color: #fff;
+		border-bottom: none;
 	}
 
 }
