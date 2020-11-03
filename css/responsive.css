@@ -117,7 +117,10 @@
 		margin-bottom: 0;
 	}
 	.annce-slide .slide-content .img-wrap img {
-	    height: 350px;
+	    height: 365px;
+	}
+	.annce-slide .slide-content .text-wrap img {
+	    width: 60%;
 	}
 	.banner-shop{
 		padding: 20px 0;
@@ -194,6 +197,9 @@
 	}
 }
 @media only screen and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 480px) {
 
 }
 @media only screen and (max-width: 480px) {
