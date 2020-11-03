@@ -330,8 +330,8 @@ body{
 }
 .annce-slide .slide-content .img-wrap img {
     width: 100%;
-    height: 700px;
-    object-fit: cover;
+    height: 600px;
+    object-fit: fill;
 }
 .annce-slide .slide-content .text-wrap {
     position: absolute;
@@ -357,6 +357,9 @@ body{
     padding: 0;
     margin: 0;
     font-size: calc(16px + 2vw);
+}
+.annce-slide .slide-content:first-child .text-wrap {
+    background: none;
 }
 
 /* ad spots */
