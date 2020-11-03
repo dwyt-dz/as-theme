@@ -15,8 +15,7 @@
 					            <?php echo wp_get_attachment_image( $image, $size ); ?>
 					            
 					        </div>
-					        <?php $hidesc = get_sub_field('hide_section'); 
-					        if($hidesc == 'NO') : ?>
+					        
 					        <div class="text-wrap">
 					        	<?php 
 					        	$logo = get_field('website_logo', 'option'); 
@@ -26,9 +25,12 @@
 					        	?>
 						        	<h2>Action Space</h2>
 						        <?php endif; ?>
+						        <?php $hidesc = get_sub_field('hide_section'); 
+					        		if($hidesc == 'NO') : ?>
 					        	<p><?php the_sub_field('title'); ?></p>
+					        	<?php endif; ?>
 					        </div>
-					    	<?php endif; ?>
+					    	
 					    </div>
 				    <?php endwhile; ?>
 				    </div>
