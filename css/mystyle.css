@@ -336,7 +336,7 @@ body{
     left: 15px;
 }
 .annce-slide .slick-next{
-    right: 20px;
+    right: 15px;
 }
 .annce-slide .slick-active button{
     background: #f97315;
@@ -725,6 +725,9 @@ display: grid;
     -ms-grid-row: 1;
     -ms-grid-row-span: 5;
     grid-row: 1 / span 5;
+}
+#product_gallery .wps-product-image {
+    margin: 0 auto;
 }
 .single-prod-banner {
     padding: 30px 0;

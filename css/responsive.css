@@ -239,6 +239,12 @@
 	.pmtn-link:nth-child(3) {
 	    border-top: 3px solid #333333;
 	}
+	#product_gallery,
+	#product_description,
+	#product_pricing,
+	#product_buy_button {
+	    grid-column: 1 / span 2;
+	}
 }
 @media only screen and (max-width: 550px) {
 
