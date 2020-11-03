@@ -335,13 +335,13 @@ body{
     border: 2px solid #fff;
 }
 .annce-slide .slick-prev{
-    left: 15px;
+    left: 0;
 }
 .annce-slide .slick-prev i{
     margin-left: -2px;
 }
 .annce-slide .slick-next{
-    right: 15px;
+    right: 0;
 }
 .annce-slide .slick-next i{
     margin-right: -2px;
