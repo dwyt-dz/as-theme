@@ -317,8 +317,6 @@ body{
     font-size: 0;
     height: 15px;
     width: 15px;
-    max-width: 15px !important;
-    overflow: hidden;
     display: block;
     position: relative;
     outline: none;

@@ -63,6 +63,7 @@
 	    z-index: 2;
 	    height: 25px;
     	width: 25px;
+    	max-width: 25px !important;
     	position: absolute;
     	top: 50%;
     	font-size: 20px;
