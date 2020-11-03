@@ -149,6 +149,12 @@ body{
     background: #f97315;
     text-align: center;
     color: #313131;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a:hover {
+    background: white;
+    transition: ease-in .3s;
 }
 .astv{
     width: 150px;
