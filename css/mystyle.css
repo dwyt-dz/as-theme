@@ -860,6 +860,11 @@ display: grid;
     color: #f97315;
     border: 1px solid;
     color: #f97315;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 }
 .cardslider .slick-arrow:hover{
     outline: none;
