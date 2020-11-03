@@ -296,6 +296,12 @@ body{
     border-radius: 100%;
     border: 2px solid #fff;
 }
+.annce-slide .slick-prev{
+    left: 20px;
+}
+.annce-slide .slick-next{
+    right: 20px;
+}
 .annce-slide .slick-active button{
     background: #f97315;
 }
@@ -350,6 +356,7 @@ body{
     font-size: 2.5em;
     padding: 0;
     margin: 0;
+    font-size: calc(16px + 2vw);
 }
 
 /* ad spots */
