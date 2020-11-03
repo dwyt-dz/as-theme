@@ -53,7 +53,7 @@
 	.astv{
 		width: 80px;
 	}
-	.annce-slide button {
+	.annce-slide .slick-arrow {
 	    font-size: 12px;
 	    z-index: 2;
 	    height: 25px;
@@ -64,8 +64,8 @@
     	font-size: 20px;
     	line-height: 0;
 	}
-	.annce-slide button:after,
-	.annce-slide button:after{
+	.annce-slide .slick-arrow:after,
+	.annce-slide .slick-arrow:after{
 		width: 45px;
 		height: 45px;
 	}
