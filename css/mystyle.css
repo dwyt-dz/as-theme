@@ -212,11 +212,9 @@ body{
     color: #fff;
 }
 .mbmenu-wrap ul li > ul {
-    display: none;
+
 }
-.mbmenu-wrap ul li > ul li:focus > ul {
-    display: block;
-}
+
 .astv{
     width: 150px;
     height: 20px;
