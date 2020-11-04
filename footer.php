@@ -41,9 +41,8 @@
 	            heading.html([first_part, ' <span class="last-word">', last_word, '</span>'].join(''));
 	        });
 
-		    $(".login-btn").click(function(){
-		       $('.login-wrap').removeClass('hidden');
-		       $('.login-wrap').toggleClass("show");
+		    $(".bars-wrap i").click(function(){
+		       $('.mbmenu-wrap').toggleClass("show");
 		    });
 		    $(".close-lgn").click(function(){
 		       $('.shop .menu').removeClass('show');

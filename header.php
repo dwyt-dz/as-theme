@@ -25,7 +25,7 @@
 			<i class="fa fa-bars"></i>
 			<p>Menu</p>
 		</div>
-		<div class="menu-wrap">
+		<div class="mbmenu-wrap">
 			<?php
 				wp_nav_menu( array( 
 				    'theme_location' 	=> 	'dz-action-main-menu',
