@@ -205,6 +205,18 @@ body{
 .mobile-menu .mbmenu-wrap.show{
     display: block;
 }
+.mbmenu-wrap ul {
+    padding: revert;
+}
+.mbmenu-wrap ul a {
+    color: #fff;
+}
+.mbmenu-wrap ul li > ul {
+    display: none;
+}
+.mbmenu-wrap ul li > ul li:focus > ul {
+    display: block;
+}
 .astv{
     width: 150px;
     height: 20px;
