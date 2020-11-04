@@ -103,6 +103,12 @@
 	.fpage-banner{
 		margin-top: 30px;
 	}
+	.header-sc{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
 	.shop-banner .grid-wrap{
 		-ms-grid-columns: 50% 50%;
 		grid-template-columns: 50% 50%;

@@ -171,6 +171,9 @@ body{
     -o-transition: ease-in .3s;
     transition: ease-in .3s;
 }
+.mobile-menu{
+    display: none;
+}
 .astv{
     width: 150px;
     height: 20px;

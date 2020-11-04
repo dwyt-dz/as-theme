@@ -20,3 +20,15 @@
 			<span class="inner-nav nav-btn hidden"><i class="fa fa-bars"></i></span>
 		</div>
 	</header>
+	<header class="mobile-menu">
+		<div class="container">
+			<?php
+				wp_nav_menu( array( 
+				    'theme_location' 	=> 	'dz-action-main-menu',
+				    'orderby' 			=>	'menu_order',
+				    'container' 	=> 	'ul' ) ); 
+				?>
+			<!-- use plain bar..black.. or switch colors with the topbar -->
+			<span class="inner-nav nav-btn hidden"><i class="fa fa-bars"></i></span>
+		</div>
+	</header>
