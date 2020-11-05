@@ -19,7 +19,7 @@
 					        	<?php 
 					        	$logo = get_field('website_logo', 'option'); 
 					        	if($logo) :
-					        		echo wp_get_attachment_image( $logo, 'large' ); 
+					        		echo wp_get_attachment_image( $logo); 
 					        	else :
 					        	?>
 						        	<h2>Action Space</h2>
