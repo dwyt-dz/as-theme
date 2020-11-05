@@ -97,7 +97,8 @@
 			    slidesToShow: 3,
 				  slidesToScroll: 1,
 				  asNavFor: '.annce-slide',
-				  dots: true,
+				  dots: false,
+				  arrow: true,
 				  centerMode: true,
 				  focusOnSelect: true
 			});
