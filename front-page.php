@@ -8,7 +8,7 @@
 				    <div class="annce-slide custSlide">
 				    <?php while( have_rows('image_sliders', 'option') ): the_row(); 
 				        $image = get_sub_field('image');
-				        $size = 'full';
+				        $size = 'large';
 				        ?>
 				        <div class="slide-content">
 					        <div class="img-wrap">
