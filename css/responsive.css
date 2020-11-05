@@ -63,6 +63,7 @@
     	font-size: 20px;
     	line-height: 0;
     	background: none;
+    	font-size: 0;
 	}
 	.annce-slide .slick-arrow:before{
 		position: absolute;
@@ -75,6 +76,7 @@
 	}
 	.annce-slide .slick-arrow i{
 		z-index: 2;
+		font-size: 16px;
 	}
 	.annce-slide .slick-arrow:after,
 	.annce-slide .slick-arrow:after{
