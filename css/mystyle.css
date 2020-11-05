@@ -269,7 +269,10 @@ body{
 }
 .footer-sc .menu li {
     margin-right: 15px;
-    font-size: 1.2em;
+    font-size: .8em;
+}
+.footer-sc .copyright {
+    font-size: .7em;
 }
 .footer-sc .socmed a {
     -ms-flex-item-align: center;
