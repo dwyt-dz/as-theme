@@ -94,7 +94,7 @@
 			  ]
 			});
 			$('.annce-nav').slick({
-			    slidesToShow: 3,
+			    slidesToShow: 5,
 				  slidesToScroll: 1,
 				  asNavFor: '.annce-slide',
 				  dots: false,
