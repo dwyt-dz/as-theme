@@ -86,9 +86,6 @@
 	    margin: 0 auto;
 	    top: 8px;
 	}
-	.annce-slide .slide-content .img-wrap img {
-	    height: 400px;
-	}
 	.footer-sc .menu {
 	    -ms-flex-pack: distribute;
 	        justify-content: space-around;
@@ -152,9 +149,6 @@
 @media only screen and (max-width: 768px) {
 	.annce-slide{
 		margin-bottom: 0;
-	}
-	.annce-slide .slide-content .img-wrap img {
-	    height: 365px;
 	}
 	.annce-slide .slide-content .text-wrap img {
 	    width: 60%;
@@ -239,9 +233,6 @@
 	}
 }
 @media only screen and (max-width: 600px) {
-	.annce-slide .slide-content .img-wrap img {
-	    height: 300px;
-	}
 	.cardslider{
 		padding: 0;
 	}
