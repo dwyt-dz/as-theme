@@ -171,12 +171,7 @@ body{
     -o-transition: ease-in .3s;
     transition: ease-in .3s;
 }
-.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu li:first-child a:hover{
-    background: #f97315;
-}   
-.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu li:first-child a:hover:after{
-    background: #fff;
-}
+
 .mobile-menu{
     display: none;
 }

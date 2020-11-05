@@ -77,7 +77,7 @@
 				$("#"+tab_id).addClass('current');
 			})
 			$('.annce-slide').slick({
-			  dots: true,
+			  dots: false,
 			  infinite: true,
 			  speed: 500,
 			  fade: true,
@@ -92,6 +92,14 @@
 			      }
 			    }
 			  ]
+			});
+			$('.annce-nav').slick({
+			    slidesToShow: 3,
+				  slidesToScroll: 1,
+				  asNavFor: '.annce-slide',
+				  dots: true,
+				  centerMode: true,
+				  focusOnSelect: true
 			});
 			$('.shop-slide').slick({
 			  dots: true,

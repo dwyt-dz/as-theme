@@ -34,6 +34,21 @@
 				    <?php endwhile; ?>
 				    </div>
 				<?php endif; ?>
+
+				<?php if( have_rows('image_sliders', 'option') ): ?>
+				    <div class="annce-nav">
+				    <?php while( have_rows('image_sliders', 'option') ): the_row(); 
+				        $image = get_sub_field('image');
+				        $size = 'thumb';
+				        ?>
+				        <div class="slide-content">
+					        <div class="img-wrap">
+					            <?php echo wp_get_attachment_image( $image, $size ); ?>
+					        </div>
+					    </div>
+				    <?php endwhile; ?>
+				    </div>
+				<?php endif; ?>
 			</div>
 		</div>
 	</section>
