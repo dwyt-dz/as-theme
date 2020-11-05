@@ -223,7 +223,7 @@ body{
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
-    background: url('../icons/astv-logo.png');
+    background: url('../icons/astv-logo-white.png');
 }
 #wprmenu_bar .menu_title a {
     color: #fff;
