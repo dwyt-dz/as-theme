@@ -12,14 +12,14 @@
 				        ?>
 				        <div class="slide-content">
 					        <div class="img-wrap">
-					            <?php echo wp_get_attachment_image( $image, $size ); ?>
+					            <?php echo wp_get_attachment_image( $image ); ?>
 					        </div>
 					        
 					        <div class="text-wrap">
 					        	<?php 
 					        	$logo = get_field('website_logo', 'option'); 
 					        	if($logo) :
-					        		echo wp_get_attachment_image( $logo); 
+					        		echo wp_get_attachment_image( $logo, 'large' ); 
 					        	else :
 					        	?>
 						        	<h2>Action Space</h2>
