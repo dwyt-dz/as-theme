@@ -8,11 +8,11 @@
 				    <div class="annce-slide custSlide">
 				    <?php while( have_rows('image_sliders', 'option') ): the_row(); 
 				        $image = get_sub_field('image');
-				        $size = 'large';
+				        $size = 'full';
 				        ?>
 				        <div class="slide-content">
 					        <div class="img-wrap">
-					            <?php echo wp_get_attachment_image( $image ); ?>
+					            <?php echo wp_get_attachment_image( $image, $size ); ?>
 					        </div>
 					        
 					        <div class="text-wrap">
