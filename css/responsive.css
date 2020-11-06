@@ -53,7 +53,9 @@
 	.astv{
 		width: 80px;
 	}
-	
+	.annce-nav{
+		display: none;
+	}
 	.footer-sc .menu {
 	    -ms-flex-pack: distribute;
 	        justify-content: space-around;
