@@ -515,8 +515,10 @@ body{
     top: 50%;
     transform: translatey(-50%);
 }
-.annce-nav .slick-slide{
+.annce-nav .slick-slide {
     opacity: 0.4;
+    display: flex;
+    align-items: center;
 }
 .annce-nav .slick-current{
     opacity: 1;
@@ -524,8 +526,19 @@ body{
 .annce-nav .slick-slide img{
     width: 100%;
     object-fit: cover;
+    transition: easein .3s;
 }
-
+.annce-nav .slick-current img{
+    height: 120px;
+    border-radius: 10px;
+    transition: easein .3s;
+}
+.annce-nav .slick-track {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 120px;
+}
 .empty-text{
     opacity: 0;
 }

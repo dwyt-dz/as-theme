@@ -44,9 +44,7 @@
 				        $size = 'thumb';
 				        ?>
 				        <div class="slide-content">
-					        <div class="img-wrap">
-					            <?php echo wp_get_attachment_image( $image, $size ); ?>
-					        </div>
+					        <?php echo wp_get_attachment_image( $image, $size ); ?>
 					    </div>
 				    <?php endwhile; ?>
 				    </div>
