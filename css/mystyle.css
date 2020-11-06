@@ -512,7 +512,8 @@ body{
     top: 8px;
 }
 .annce-nav .slick-arrow {
-    top: 0;
+    top: 50%;
+    transform: translatey(-50%);
 }
 .empty-text{
     opacity: 0;
