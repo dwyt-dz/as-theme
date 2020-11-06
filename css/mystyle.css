@@ -516,15 +516,16 @@ body{
     transform: translatey(-50%);
 }
 .annce-nav .slick-slide{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .annce-nav .slick-current{
     opacity: 1;
 }
-.annce-nav .slick-slide .img{
+.annce-nav .slick-slide img{
     width: 100%;
     object-fit: cover;
 }
+
 .empty-text{
     opacity: 0;
 }
