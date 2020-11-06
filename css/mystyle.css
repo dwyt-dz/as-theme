@@ -382,13 +382,16 @@ body{
     border-radius: 100%;
     border: 2px solid #fff;
 }
-.annce-slide .slick-prev{
+.annce-slide .slick-prev,
+.annce-nav .slick-prev{
     left: 0;
 }
-.annce-slide .slick-prev i{
+.annce-slide .slick-prev i,
+.annce-nav .slick-prev i{
     margin-left: -2px;
 }
-.annce-slide .slick-next{
+.annce-slide .slick-next,
+.annce-nav .slick-next{
     right: 0;
 }
 .annce-slide .slick-next i{
