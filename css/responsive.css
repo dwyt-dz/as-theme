@@ -29,6 +29,9 @@
 	.wps-collection-single.row{
 		max-width: 1140px;
 	}
+	.annce-slide .slide-content .img-wrap img {
+	    height: 679px;
+	}
 }
 @media only screen and (min-width: 1441px) { /* large desktop 1440px - 1280px */
 	.single-wps_products .wps-product-single,
@@ -41,9 +44,7 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	.annce-slide .slide-content .img-wrap img {
-	    height: 500px;
-	}
+	
 	.pmtn-imgs img {
 	    height: 100px;
 	}
