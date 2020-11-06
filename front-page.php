@@ -38,7 +38,7 @@
 				<?php endif; ?>
 
 				<?php if( have_rows('image_sliders', 'option') ): ?>
-				    <div class="annce-nav">
+				    <div class="annce-nav custSlide">
 				    <?php while( have_rows('image_sliders', 'option') ): the_row(); 
 				        $image = get_sub_field('image');
 				        $size = 'thumb';
