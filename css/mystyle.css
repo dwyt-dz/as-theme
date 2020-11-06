@@ -541,7 +541,7 @@ body{
     height: 120px;
 }
 .annce-slide .slick-arrow{
-    display: none; 
+    display: none !important; 
 }
 .empty-text{
     opacity: 0;

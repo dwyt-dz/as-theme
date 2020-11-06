@@ -57,7 +57,7 @@
 		display: none;
 	}
 	.annce-slide .slick-arrow{
-		display: flex;
+		display: flex !important;
 	}
 	.footer-sc .menu {
 	    -ms-flex-pack: distribute;
