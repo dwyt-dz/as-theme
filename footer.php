@@ -77,21 +77,12 @@
 				$("#"+tab_id).addClass('current');
 			})
 			$('.annce-slide').slick({
-			  dots: false,
+			  dots: true,
 			  infinite: true,
 			  speed: 500,
 			  fade: true,
 			  arrows: false,
-			  cssEase: 'linear',
-			  responsive: [
-			  	{
-			      breakpoint: 992,
-			      settings: {
-			        dots: false,
-			        arrows: true
-			      }
-			    }
-			  ]
+			  cssEase: 'linear'
 			});
 			$('.annce-nav').slick({
 			    slidesToShow: 5,
