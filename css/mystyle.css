@@ -518,6 +518,9 @@ body{
 .annce-nav .slick-slide{
     opacity: 0.5;
 }
+.annce-nav .slick-current{
+    opacity: 1;
+}
 .annce-nav .slick-slide .img{
     width: 100%;
     object-fit: cover;
