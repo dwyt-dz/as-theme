@@ -351,6 +351,10 @@ body{
 .annce-slide{
     margin-bottom: 50px;
 }
+.annce-nav{
+    width: 650px;
+    margin: 0 auto;
+}
 .annce-slide button,
 .annce-nav button {
     background: #fff;
