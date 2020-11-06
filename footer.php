@@ -91,7 +91,13 @@
 				  dots: false,
 				  arrow: true,
 				  centerMode: true,
-				  focusOnSelect: true
+				  focusOnSelect: true,
+				  responsive: [
+			        {
+			           breakpoint: 992,
+			           settings: "unslick"
+			        }
+			     ]
 			});
 			$('.shop-slide').slick({
 			  dots: true,
