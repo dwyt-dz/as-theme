@@ -27,6 +27,8 @@
 						        <?php $hidesc = get_sub_field('hide_section'); 
 					        		if($hidesc == 'NO') : ?>
 					        	<p><?php the_sub_field('title'); ?></p>
+					        	<?php else : ?>
+					        	<p class="empty-text">Action Space</p>
 					        	<?php endif; ?>
 					        </div>
 					    	
