@@ -527,12 +527,13 @@ body{
 .annce-nav .slick-slide img{
     width: 100%;
     object-fit: cover;
-    transition: easein .3s;
+    transition: ease-in .3s;
 }
 .annce-nav .slick-current img{
     height: 120px;
     border-radius: 10px;
-    transition: easein .3s;
+    transition: ease-in .3s;
+    border: 2px solid #fff;
 }
 .annce-nav .slick-track {
     display: flex;
