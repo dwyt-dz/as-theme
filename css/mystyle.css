@@ -384,6 +384,9 @@ body{
     border-radius: 100%;
     border: 2px solid #fff;
 }
+.annce-nav .slick-arrow {
+    top: 0;
+}
 .annce-slide .slick-prev,
 .annce-nav .slick-prev{
     left: 0;

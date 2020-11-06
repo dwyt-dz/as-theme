@@ -85,8 +85,8 @@
 			  cssEase: 'linear'
 			});
 			$('.annce-nav').slick({
-			    slidesToShow: 5,
-				  slidesToScroll: 1,
+			    slidesToShow: 3,
+				  slidesToScroll: 3,
 				  asNavFor: '.annce-slide',
 				  dots: false,
 				  arrow: true,
