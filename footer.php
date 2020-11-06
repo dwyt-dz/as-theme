@@ -88,6 +88,7 @@
 			    slidesToShow: 3,
 				  slidesToScroll: 3,
 				  asNavFor: '.annce-slide',
+				  centerPadding: '60px',
 				  dots: false,
 				  arrow: true,
 				  centerMode: true,
