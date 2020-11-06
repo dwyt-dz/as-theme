@@ -351,7 +351,8 @@ body{
 .annce-slide{
     margin-bottom: 50px;
 }
-.annce-slide button {
+.annce-slide button,
+.annce-nav button {
     background: #fff;
     border: none;
     border-radius: 100%;
@@ -371,7 +372,8 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-.annce-slide button:after{
+.annce-slide button:after,
+.annce-nav button:after{
     content: '';
     position: absolute;
     left: -10px;
