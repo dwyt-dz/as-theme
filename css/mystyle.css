@@ -463,7 +463,8 @@ body{
 .annce-slide .slide-content:first-child .text-wrap {
     background: none;
 }
-.annce-slide .slick-arrow {
+.annce-slide .slick-arrow,
+.annce-nav .slick-arrow {
     font-size: 12px;
     z-index: 2;
     height: 55px;
@@ -475,7 +476,8 @@ body{
     background: none;
     font-size: 0;
 }
-.annce-slide .slick-arrow:before{
+.annce-slide .slick-arrow:before,
+.annce-nav .slick-arrow:before{
     position: absolute;
     content: '';
     width: 25px;
@@ -484,12 +486,15 @@ body{
     z-index: 1;
     border-radius: 100px;
 }
-.annce-slide .slick-arrow i{
+.annce-slide .slick-arrow i,
+.annce-nav .slick-arrow i{
     z-index: 2;
     font-size: 16px;
 }
 .annce-slide .slick-arrow:after,
-.annce-slide .slick-arrow:after{
+.annce-slide .slick-arrow:after,
+.annce-nav .slick-arrow:after,
+.annce-nav .slick-arrow:after{
     width: 35px;
     height: 35px;
     left: 0;
