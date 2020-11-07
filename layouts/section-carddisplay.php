@@ -1,5 +1,6 @@
 <?php 
 $title 		= get_sub_field('section_title'); 
+$template 		= get_sub_field('template'); 
 $bgimg 		= get_sub_field('section_background');
 $sclogo  	= get_field('card_logo_section', 'option');
 $logo  		= get_field('card_logo', 'option');
@@ -33,7 +34,7 @@ $hidesc		= get_sub_field('hide_section');
 			<?php
 			$featured_posts = get_sub_field('profiles_to_display');
 			if( $featured_posts ): ?>
-			    <div class="cardslider custSlide">
+			    <div class="cardslider custSlide <?php echo $template; ?>">
 			    <?php foreach( $featured_posts as $post ): 
 
 			        // Setup this post for WP functions (variable must be named $post).
