@@ -53,7 +53,7 @@ $template_list = array('Default', 'Profiles')
 						    </div>
 						    <div class="card-cat">
 					    		<?php 
-					    		if(in_array('$template', $template_list)) :
+					    		if(in_array($template, $template_list)) :
 					    			if($showlogo == 'NO') :
 							    		if( !empty( $logo ) ): 
 											$size = 'medium';
