@@ -297,9 +297,17 @@ body{
     margin-left: 1.5em;
 }
 /* others / sitewide */
+header.page-sc{
+    text-align: center;
+}
 header.page-sc h1 {
     color: #f97313;
     text-align: center;
+}
+header.page-sc p.subtitle {
+    background: #662483;
+    color: #fff;
+    padding: 10px 15px;
 }
 .btn-abs {
     position: absolute;
