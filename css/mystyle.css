@@ -303,11 +303,15 @@ header.page-sc{
 header.page-sc h1 {
     color: #f97313;
     text-align: center;
+    margin: 10px 0;
 }
 header.page-sc p.subtitle {
     background: #662483;
     color: #fff;
     padding: 10px 15px;
+    min-width: 150px;
+    display: inline-block;
+    margin: 0;
 }
 .btn-abs {
     position: absolute;
