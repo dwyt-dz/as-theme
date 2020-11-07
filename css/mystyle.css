@@ -363,6 +363,16 @@ header.page-sc p.subtitle {
   background-clip: text;
   -webkit-background-clip: text;
 }
+.fa-tv{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background: url('../icons/igtv-icon.png');
+}
 /* Front Page Banner */
 .annce-slide{
     margin-bottom: 50px;
@@ -1113,4 +1123,10 @@ display: grid;
 .cardslider.Profiles .card-cat p {
     padding: 0;
     font-size: 15px;
+}
+.cardslider.Video .card-wrap span a {
+    margin-top: 15px;
+    display: block;
+    color: #000;
+    font-size: 14px;
 }
