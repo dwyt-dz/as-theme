@@ -1079,3 +1079,9 @@ display: grid;
     right: 0;
     margin: 15px auto;
 }
+.cardslider .slick-track{
+    display: flex;
+}
+.cardslider .slick-slides{
+    height: auto;
+}
