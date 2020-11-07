@@ -3,13 +3,18 @@
 get_header(); 
 
 $subtitle 	= get_field('page_subtitle');
+$title 		= get_field('page_title');
 ?>
 
 <?php //get_template_part('includes/section', 'pageBanner');?>
 
 <main>
 	<header class="page-sc container-dzy">
-		<h1><?php the_title(); ?></h1>
+		<?php if($title) : ?>
+			<h1><?php echo $title; ?></h1>
+		<?php else : ?>
+			<h1><?php the_title(); ?></h1>
+		<?php endif; ?>
 		<?php if($subtitle) : ?>
 			<p class='subtitle'><?php echo $subtitle; ?></p>
 		<?php endif; ?>
