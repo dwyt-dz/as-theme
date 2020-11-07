@@ -363,7 +363,7 @@ header.page-sc p.subtitle {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.fa-tv{
+.button .fa-tv:before{
     content: '';
     width: 30px;
     height: 30px;
@@ -373,9 +373,7 @@ header.page-sc p.subtitle {
     background-position: center !important;
     background: url('../icons/igtv-icon.png');
 }
-.fa-tv:before{
-    content: '';
-}
+
 /* Front Page Banner */
 .annce-slide{
     margin-bottom: 50px;
