@@ -957,7 +957,6 @@ display: grid;
     top: -80px;
     left: 0;
     padding: 10px;
-    width: 100%;
 }
 .cardslider .img-wrap img {
     width: 100%;
@@ -968,6 +967,7 @@ display: grid;
        object-position: center;
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgb(250 250 250 / 22%)));
     border-radius: 10px;
+    object-fit: fill;
 }
 .cardslider .card-cat p {
     background: #662483;
@@ -1048,4 +1048,7 @@ display: grid;
 }
 .cardslides .socmed a {
     font-size: 2em;
+}
+.cardslides .text-wrap h3 {
+    margin: 0;
 }
