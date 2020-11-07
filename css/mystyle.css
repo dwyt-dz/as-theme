@@ -949,7 +949,8 @@ display: grid;
     position: relative;
     text-align: center;
     margin-top: 80px;
-    padding-top: 100px;
+    padding-top: 60px;
+    background: #662483;
 }
 
 .cardslider .card-wrap .img-wrap {
@@ -960,14 +961,13 @@ display: grid;
 }
 .cardslider .img-wrap img {
     width: 100%;
-    height: 150px;
+    height: 120px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgb(250 250 250 / 22%)));
     border-radius: 10px;
-    object-fit: fill;
 }
 .cardslider .card-cat p {
     background: #662483;
@@ -1051,4 +1051,9 @@ display: grid;
 }
 .cardslides .text-wrap h3 {
     margin: 0;
+}
+/* different card templates */
+.cardslider.Magazine .card-cat p{
+    text-align: left;
+    font-size: 12px;
 }

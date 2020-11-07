@@ -40,11 +40,6 @@
 	}
 }
 @media only screen and (max-width: 1080px) {
-	.cardslides .card-cat{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	
 	.pmtn-imgs img {
 	    height: 100px;
 	}

@@ -197,10 +197,12 @@
 			    }
 			}); 
 		});
+		/*
 		fitty('.card-cat a', {
 		  minSize: 6,
 		  maxSize: 16
 		});
+		*/
 		fitty('.shop-title', {
 		  minSize: 12,
 		  maxSize: 40
