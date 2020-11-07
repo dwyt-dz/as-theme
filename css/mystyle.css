@@ -976,6 +976,7 @@ display: grid;
     text-align: center;
     font-family: changeling; 
     width: 100%;
+    background: #662483;
 }
 .cardslider .card-cat a{
     color: #f9675c;
@@ -1053,7 +1054,7 @@ display: grid;
 }
 /* different card templates */
 .cardslider.Magazine .card-wrap{
-    min-height: calc(200px + 2.5vw);
+    min-height: calc(175px + 2.5vw);
 }
 .cardslider.Magazine .card-cat p{
     text-align: left;
@@ -1061,7 +1062,6 @@ display: grid;
     padding-left: 10px;
 }
 .cardslider.Magazine .card-cat{
-    background: #662483;
     overflow: hidden;
     margin-bottom: 15px;
 }
@@ -1070,6 +1070,7 @@ display: grid;
 }
 .cardslider.Magazine .text-wrap p:last-child{
     margin-top: 15px;
+    font-size: 13px;
 }
 .cardslider.Magazine .socmed{
     position: absolute;
