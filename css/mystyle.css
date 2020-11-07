@@ -297,6 +297,10 @@ body{
     margin-left: 1.5em;
 }
 /* others / sitewide */
+header.page-sc h1 {
+    color: #f97313;
+    text-align: center;
+}
 .btn-abs {
     position: absolute;
     top: 0;
@@ -910,7 +914,9 @@ display: grid;
     padding: 30px 0;
     text-align: center;
 }
-
+.carddis-sc .basic-title {
+    color: #fff;
+}
 .carddis-sc:nth-child(2n+1) {
     background: #191919c4;
 }
