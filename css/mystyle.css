@@ -351,7 +351,7 @@ header.page-sc p.subtitle {
     color: #3b5998
 }
 .fa-twitter, .fa-twitter-square,
-.footer-sc .socmed a:hover .fa-twitter,
+.footer-sc .socmed a:hover .fa-twitter, 
 .footer-sc .socmed a:hover .fa-twitter-square  {
     color: #00aced
 }
@@ -365,13 +365,16 @@ header.page-sc p.subtitle {
 }
 .fa-tv{
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     display: block;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background: url('../icons/igtv-icon.png');
+}
+.fa-tv:before{
+    content: '';
 }
 /* Front Page Banner */
 .annce-slide{
