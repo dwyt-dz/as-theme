@@ -1049,7 +1049,8 @@ display: grid;
 .cardslides .socmed a {
     font-size: 2em;
 }
-.cardslides .text-wrap h3 {
+.cardslides .text-wrap h3,
+.cardslider .text-wrap p{
     margin: 0;
 }
 /* different card templates */
@@ -1065,9 +1066,7 @@ display: grid;
     overflow: hidden;
     margin-bottom: 15px;
 }
-.cardslider.Magazine .text-wrap p{
-    margin: 0;
-}
+
 .cardslider.Magazine .text-wrap p:last-child{
     margin-top: 15px;
     font-size: 13px;
@@ -1082,6 +1081,7 @@ display: grid;
 .cardslider.Profiles .card-cat {
     max-width: 70%;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 .cardslider.Profiles .card-cat img{
     height: 15px;
