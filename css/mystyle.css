@@ -1049,9 +1049,15 @@ display: grid;
 .cardslides .socmed a {
     font-size: 2em;
 }
-.cardslides .text-wrap h3,
-.cardslider .text-wrap p{
+.cardslides .text-wrap h3{
     margin: 0;
+}
+.cardslider .text-wrap p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.cardslider .text-wrap p:last-child{
+    font-size: 12px;
 }
 /* different card templates */
 .cardslider.Magazine .card-wrap{
