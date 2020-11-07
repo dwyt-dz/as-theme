@@ -1125,6 +1125,12 @@ display: grid;
     padding: 0;
     font-size: 15px;
 }
+.cardslider.Video .text-wrap p {
+    margin: 0;
+}
+.cardslider.Video .text-wrap p:last-child {
+    margin-top: 15px;
+}
 .cardslider.Video .card-wrap span a {
     margin-top: 15px;
     display: block;
