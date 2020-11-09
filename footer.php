@@ -185,7 +185,10 @@
 			});
 			$(".custSlide .slick-prev").html('<i class="fa fa-caret-left"></i>');
 			$(".custSlide .slick-next").html('<i class="fa fa-caret-right"></i>');
-			$(".home-icon a").html('<i class="fa fa-home"></i>');
+			$(".mobile-menu .home-icon a").html('<i class="fa fa-home"></i>');
+			$(".mobile-menu .profiles-icon a").html('<i class="fa fa-users"></i>');
+			$(".mobile-menu .products-icon a").html('<i class="fa fa-tshirt"></i>');
+			$(".mobile-menu .mags-icon a").html('<i class="fa fa-images"></i>');
 			$(window).scroll(function() {    
 			    var scroll = $(window).scrollTop();
 
