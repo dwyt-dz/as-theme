@@ -10,7 +10,8 @@ $showcat 	= get_sub_field('hide_category');
 $discat 	= get_sub_field('display_category');	
 $basictitle = get_sub_field('display_basic');
 $hidesc		= get_sub_field('hide_section');	
-$template_list = array('Default', 'Profiles')	
+$template_list = array('Default', 'Profiles');
+$catimg 	= get_sub_field('category_image');
 ?>
 
 <?php if($hidesc == "NO") : ?>
@@ -53,9 +54,9 @@ $template_list = array('Default', 'Profiles')
 						    </div>
 						    <div class="card-cat">
 					    		<?php 
-					    		$catimg = get_sub_field('category_image');
+					    		
 					    		if($catimg) :
-					    			echo wp_get_attachment_image( $catimg, $size ); 
+					    			echo wp_get_attachment_image( $catimg, 'medium' ); 
 					    		else :
 						    		if(in_array($template, $template_list)) :
 						    			if($showlogo == 'NO') :
