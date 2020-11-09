@@ -1088,7 +1088,7 @@ display: grid;
 .cardslider .text-wrap p:last-child{
     font-size: 12px;
 }
-.cardslider .card-cat img.catimg{
+.cardslider .card-wrap .card-cat img.catimg{
     height: auto;
 }
 /* different card templates */
