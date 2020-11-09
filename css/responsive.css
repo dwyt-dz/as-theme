@@ -216,20 +216,18 @@
 		transition: ease .3s;
 		    margin: 0;
 	}
-	.pmtn-imgs img {
-	    height: 90px;
-	}
+
 	.pmtn-imgs .pmtn-link {
 	    -ms-grid-column-span: 2;
 	    grid-column: span 2;
 	}
-	.pmtn-link {
+	.pmtn-link img{
     	border: 6px solid #333333;
 	}
-	.pmtn-link:nth-child(2) {
+	.pmtn-link:nth-child(2) img{
     	border-bottom: 3px solid #333333;
 	}
-	.pmtn-link:nth-child(3) {
+	.pmtn-link:nth-child(3) img{
 	    border-top: 3px solid #333333;
 	}
 	#product_gallery,
