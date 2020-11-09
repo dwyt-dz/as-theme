@@ -98,7 +98,7 @@ body{
     padding: 0 15px;
     position: relative;
 }
-.header-sc .menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
+.menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
     color: #f97315;
 }
 .header-sc .menu .current-menu-item a:after, .header-sc .menu a:after{
@@ -154,18 +154,18 @@ body{
 .header-sc .menu li.menu-item-has-children > .sub-menu li > .sub-menu li a {
     border-bottom: none;
 }
-.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
+.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
     left: 272px;
     top: 0;
 }
-.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
+.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
     background: #f97315;
     text-align: center;
     color: #313131;
     font-size: 14px;
     font-weight: 600;
 }
-.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a:hover {
+.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a:hover {
     background: white;
     -webkit-transition: ease-in .3s;
     -o-transition: ease-in .3s;
