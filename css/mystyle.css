@@ -973,11 +973,12 @@ display: grid;
     border-radius: 10px;
     color: #000;
     outline: none;
-    padding: 10px;
+    padding: 10px 15px;
     position: relative;
     text-align: center;
     margin-top: 80px;
-    padding-top: 60px;
+    padding-top: 40px;
+    max-width: 150px;
 }
 
 .cardslider .card-wrap .img-wrap {
