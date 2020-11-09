@@ -610,14 +610,17 @@ header.page-sc p.subtitle {
     grid-column: 1 / span 2;
     border: none;
     margin-bottom: 10px;
-    border-left: 7px solid #f97315;
+    
 }
 .pmtn-imgs .pmtn-link:first-child img{
     object-fit: cover;
+    border: none;
+    border-left: 7px solid #f97315;
 }
 .pmtn-link img{
     border: 8px solid #333333;
     line-height: 0;
+    height: auto;
 }
 .pmtn-link:nth-child(2) img{
     border-right: 4px solid #333333;
