@@ -185,7 +185,7 @@
 			});
 			$(".custSlide .slick-prev").html('<i class="fa fa-caret-left"></i>');
 			$(".custSlide .slick-next").html('<i class="fa fa-caret-right"></i>');
-			$(".home-icon a:after").html('<i class="fa fa-home"></i>');
+			$(".home-icon a").html('<i class="fa fa-home"></i>');
 			$(window).scroll(function() {    
 			    var scroll = $(window).scrollTop();
 
