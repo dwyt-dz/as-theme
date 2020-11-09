@@ -54,7 +54,7 @@ $template_list = array('Default', 'Profiles')
 						    <div class="card-cat">
 					    		<?php 
 					    		$catimg = get_sub_field('category_image');
-					    		if($img) :
+					    		if($catimg) :
 					    			echo wp_get_attachment_image( $catimg, $size ); 
 					    		else :
 						    		if(in_array($template, $template_list)) :
