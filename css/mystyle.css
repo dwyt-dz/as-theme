@@ -601,8 +601,8 @@ header.page-sc p.subtitle {
 }
 .pmtn-imgs img {
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 .pmtn-imgs .pmtn-link:first-child {
     -ms-grid-column: 1;
@@ -612,14 +612,17 @@ header.page-sc p.subtitle {
     margin-bottom: 10px;
     border-left: 7px solid #f97315;
 }
-.pmtn-link {
+.pmtn-imgs .pmtn-link:first-child img{
+    object-fit: cover;
+}
+.pmtn-link img{
     border: 8px solid #333333;
     line-height: 0;
 }
-.pmtn-link:nth-child(2) {
+.pmtn-link:nth-child(2) img{
     border-right: 4px solid #333333;
 }
-.pmtn-link:nth-child(3) {
+.pmtn-link:nth-child(3) img{
     border-left: 4px solid #333333;
 }
 /* shop page */
