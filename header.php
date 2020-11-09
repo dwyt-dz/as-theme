@@ -21,11 +21,7 @@
 		</div>
 	</header>
 	<header class="mobile-menu">
-		<div class="bars-wrap">
-			<i class="fa fa-bars"></i>
-			<p>Menu</p>
-		</div>
-		<div class="mbmenu-wrap">
+		<div class="container">
 			<?php
 				wp_nav_menu( array( 
 				    'theme_location' 	=> 	'dz-action-main-menu',
