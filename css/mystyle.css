@@ -115,16 +115,16 @@ body{
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.header-sc .menu .sub-menu a:after {
+.menu .sub-menu a:after {
     bottom: -2px;
 }
-.header-sc .menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
+.menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
     width: 100%;
     -webkit-transition: ease .3s;
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.header-sc .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
+.menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
     -webkit-transition: all 0.5s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
@@ -140,8 +140,8 @@ body{
     visibility: hidden;
     opacity: 0;
 }
-.header-sc .menu li.menu-item-has-children:hover > .sub-menu,
-.header-sc .menu li.menu-item-has-children:focus > .sub-menu{
+.menu li.menu-item-has-children:hover > .sub-menu,
+.menu li.menu-item-has-children:focus > .sub-menu{
     visibility: visible;
     opacity: 1;
 }
@@ -207,7 +207,13 @@ body{
 .mbmenu-wrap ul li > ul {
 
 }
-
+.mobile-menu .menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mobile-menu .menu a{
+    color: #fff;
+}
 .astv{
     width: 150px;
     height: 20px;

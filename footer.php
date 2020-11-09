@@ -20,6 +20,7 @@
 				    'container'		 => '', 
 				    'container_class' => 'footer-menu' ) ); 
 				?>
+				
 				<p class="copyright">Copyright @ Action Space 2020. All Rights Reserved.</p>
 				</div>
 			</div>
