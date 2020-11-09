@@ -115,16 +115,16 @@ body{
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.menu .sub-menu a:after {
+.header-sc .menu .sub-menu a:after {
     bottom: -2px;
 }
-.menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
+.header-sc .menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
     width: 100%;
     -webkit-transition: ease .3s;
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
+.header-sc .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
     -webkit-transition: all 0.5s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
@@ -140,8 +140,8 @@ body{
     visibility: hidden;
     opacity: 0;
 }
-.menu li.menu-item-has-children:hover > .sub-menu,
-.menu li.menu-item-has-children:focus > .sub-menu{
+.header-sc .menu li.menu-item-has-children:hover > .sub-menu,
+.header-sc .menu li.menu-item-has-children:focus > .sub-menu{
     visibility: visible;
     opacity: 1;
 }
@@ -154,18 +154,18 @@ body{
 .header-sc .menu li.menu-item-has-children > .sub-menu li > .sub-menu li a {
     border-bottom: none;
 }
-.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu{
     left: 272px;
     top: 0;
 }
-.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a{
     background: #f97315;
     text-align: center;
     color: #313131;
     font-size: 14px;
     font-weight: 600;
 }
-.menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a:hover {
+.header-sc .menu li.menu-item-has-children > .sub-menu li.menu-item-has-children > .sub-menu a:hover {
     background: white;
     -webkit-transition: ease-in .3s;
     -o-transition: ease-in .3s;
@@ -937,6 +937,7 @@ display: grid;
 }
 .carddis-sc .basic-title {
     color: #fff;
+    margin: 0;
 }
 .carddis-sc:nth-child(2n+1) {
     background: #191919c4;
@@ -958,7 +959,8 @@ display: grid;
 }
 
 .cardslider{
-    margin: 50px 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding: 0 50px;
 }
 .cardslider .cardslides {
