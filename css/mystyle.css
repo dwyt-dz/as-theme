@@ -86,13 +86,13 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-.header-sc .menu li    {
+.menu li    {
     display: block;
     margin: 0; padding: 0; /* only needed if you don't have a reset */
     position: relative; /* this is needed in order to position sub menus */
     padding: 5px 15px;
 }
-.header-sc .menu li a  {
+.menu li a  {
     display: block;
     line-height: 30px;
     padding: 0 15px;
@@ -101,7 +101,7 @@ body{
 .menu .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
     color: #f97315;
 }
-.header-sc .menu .current-menu-item a:after, .header-sc .menu a:after{
+.menu .current-menu-item a:after, .header-sc .menu a:after{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -115,10 +115,10 @@ body{
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.header-sc .menu .sub-menu a:after {
+.menu .sub-menu a:after {
     bottom: -2px;
 }
-.header-sc .menu .current-menu-item a:hover:after, .header-sc .menu a:hover:after{
+.header-sc .menu .current-menu-item a:hover:after, .menu a:hover:after{
     width: 100%;
     -webkit-transition: ease .3s;
     -o-transition: ease .3s;
