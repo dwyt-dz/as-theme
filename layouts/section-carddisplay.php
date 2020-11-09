@@ -53,26 +53,31 @@ $template_list = array('Default', 'Profiles')
 						    </div>
 						    <div class="card-cat">
 					    		<?php 
-					    		if(in_array($template, $template_list)) :
-					    			if($showlogo == 'NO') :
-							    		if( !empty( $logo ) ): 
-											$size = 'medium';
-											echo wp_get_attachment_image( $logo, $size ); 
-										endif; 
+					    		$catimg = get_sub_field('category_image');
+					    		if($img) :
+					    			echo wp_get_attachment_image( $catimg, $size ); 
+					    		else :
+						    		if(in_array($template, $template_list)) :
+						    			if($showlogo == 'NO') :
+								    		if( !empty( $logo ) ): 
+												$size = 'medium';
+												echo wp_get_attachment_image( $logo, $size ); 
+											endif; 
+										endif;
 									endif;
-								endif;
-								?>
-								<?php 
-									if($showcat == 'NO') :
-								?>
-								<p>
-									<?php if(get_field('magazine_name')) : ?>
-										<a href="#"><?php the_field('magazine_name'); ?></a>
-									<?php else :
-											the_category(', '); 
-									endif; ?>
-									
-								</p>
+									?>
+									<?php 
+										if($showcat == 'NO') :
+									?>
+									<p>
+										<?php if(get_field('magazine_name')) : ?>
+											<a href="#"><?php the_field('magazine_name'); ?></a>
+										<?php else :
+												the_category(', '); 
+										endif; ?>
+										
+									</p>
+									<?php endif; ?>
 								<?php endif; ?>
 							</div>
 							<?php if($discat == 'YES') : ?>
