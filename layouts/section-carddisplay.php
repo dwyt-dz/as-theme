@@ -55,8 +55,8 @@ $catimg 	= get_sub_field('category_image');
 						    <div class="card-cat">
 					    		<?php 
 					    		
-					    		if($catimg) :
-					    			echo wp_get_attachment_image( $catimg, 'medium' ); 
+					    		if($catimg) : 
+					    			echo wp_get_attachment_image( $catimg, 'medium', "", ["class" => "catimg"] ); 
 					    		else :
 						    		if(in_array($template, $template_list)) :
 						    			if($showlogo == 'NO') :
