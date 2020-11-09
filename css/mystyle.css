@@ -1083,6 +1083,7 @@ display: grid;
 }
 .cardslider .text-wrap p {
     margin-bottom: 15px;
+    margin: 0;
     font-size: 14px;
 }
 .cardslider .text-wrap p:last-child{
@@ -1090,7 +1091,7 @@ display: grid;
 }
 /* different card templates */
 .cardslider.Magazine .card-wrap{
-    min-height: calc(175px + 2.5vw);
+    min-height: calc(175px + 1.8vw);
 }
 .cardslider.Magazine .card-cat p{
     text-align: left;
