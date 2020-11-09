@@ -124,7 +124,7 @@ body{
     -o-transition: ease .3s;
     transition: ease .3s;
 }
-.menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
+.header-sc .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
     -webkit-transition: all 0.5s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
@@ -200,6 +200,22 @@ body{
 }
 .mobile-menu .menu-item-has-children {
     position: relative;
+}
+.mobile .menu li.menu-item-has-children > .sub-menu { /* this targets all sub menus */
+    -webkit-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    position: absolute;
+    top: 43px;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+    background: #313131;
+    font-size: .7em;
+    min-width: auto;
+    padding: 10px 0;
+    visibility: hidden;
+    opacity: 0;
 }
 .mbmenu-wrap ul {
     padding: revert;
